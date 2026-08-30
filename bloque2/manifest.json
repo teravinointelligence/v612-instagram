@@ -1,0 +1,101 @@
+{
+  "total": 12,
+  "posts": [
+    {
+      "filename": "01-serie-cuaderno-de-cata.png",
+      "publish_order": 1,
+      "grid_position": 1,
+      "type": "serie",
+      "title": "Serie · Cuaderno de Cata",
+      "caption": "Abrimos pronto — mientras tanto, abrimos el cuaderno.\n\nCuaderno de cata V612: cepas, regiones y cómo catar, en corto y sin pretensión. Cada semana, una página nueva.\n\n#V612 #CuadernoDeCata #LaPazBCS"
+    },
+    {
+      "filename": "02-botella-la-crema.png",
+      "publish_order": 2,
+      "grid_position": 2,
+      "type": "botella",
+      "title": "La Crema · Chardonnay Monterey",
+      "caption": "Chardonnay · Monterey, California.\n\nBrisa fría del Pacífico y crianza medida: fruta amarilla, textura cremosa y un final fresco que pide mesa.\n\nMaridaje: langosta a la mantequilla, pollo rostizado, risotto de hongos.\n\nPróximamente en boutique."
+    },
+    {
+      "filename": "03-educacion-como-se-cata.png",
+      "publish_order": 3,
+      "grid_position": 3,
+      "type": "educacion",
+      "title": "Educación · Cómo se cata",
+      "caption": "Una copa se lee en tres tiempos: vista, nariz, boca.\n\nNo hace falta vocabulario — hace falta atención. Guarda esta guía para tu próxima botella."
+    },
+    {
+      "filename": "04-botella-habla-duende.png",
+      "publish_order": 4,
+      "grid_position": 4,
+      "type": "botella",
+      "title": "Habla Duende · Blanco Extremadura",
+      "caption": "Blanco de Bodegas Habla · Trujillo, Extremadura.\n\nUn blanco fuera de mapa: aromático, ágil, con la elegancia gráfica que distingue a la casa.\n\nMaridaje: ceviche de pescado, ostiones frescos, quesos suaves de cabra.\n\nPróximamente en boutique."
+    },
+    {
+      "filename": "05-educacion-chardonnay.png",
+      "publish_order": 5,
+      "grid_position": 5,
+      "type": "educacion",
+      "title": "Educación · Chardonnay en el mundo",
+      "caption": "La misma uva no sabe igual dos veces.\n\nBorgoña la vuelve mineral, California la vuelve cremosa, el Languedoc la vuelve fresca. Las tres versiones, en boutique."
+    },
+    {
+      "filename": "06-botella-les-jamelles.png",
+      "publish_order": 6,
+      "grid_position": 6,
+      "type": "botella",
+      "title": "Les Jamelles · Chardonnay Pays d'Oc",
+      "caption": "Chardonnay · Pays d'Oc, Francia.\n\nEl sur de Francia en versión precisa: flor blanca, fruta fresca y un precio que invita a repetir.\n\nMaridaje: pasta con crema, pesca blanca al horno, tabla de quesos.\n\nPróximamente en boutique."
+    },
+    {
+      "filename": "07-la-casa.png",
+      "publish_order": 7,
+      "grid_position": 7,
+      "type": "boutique",
+      "title": "La casa · Boutique en La Paz",
+      "caption": "La bóveda toma forma.\n\nAsí luce hoy la boutique en La Paz: anaqueles listos, estrella encendida. Falta poco.\n\n#V612 #LaPazBCS"
+    },
+    {
+      "filename": "08-botella-el-val.png",
+      "publish_order": 8,
+      "grid_position": 8,
+      "type": "botella",
+      "title": "El Val · Blanco de parcela Bierzo",
+      "caption": "Blanco de parcela · Valtuille de Abajo, Bierzo.\n\nCésar Márquez firma un blanco de viñas viejas en ladera de pizarra — poca producción, mucha memoria.\n\nMaridaje: pulpo a las brasas, almejas al vapor, arroz caldoso de mariscos.\n\nPróximamente en boutique."
+    },
+    {
+      "filename": "09-educacion-bierzo.png",
+      "publish_order": 9,
+      "grid_position": 9,
+      "type": "educacion",
+      "title": "Educación · Bierzo",
+      "caption": "Página de región: Bierzo.\n\nNoroeste de España, suelos de pizarra, viñas viejas de Mencía y Godello. De ahí viene El Val, de César Márquez."
+    },
+    {
+      "filename": "10-botella-bogle.png",
+      "publish_order": 10,
+      "grid_position": 10,
+      "type": "botella",
+      "title": "Bogle · Chardonnay Clarksburg",
+      "caption": "Chardonnay · Clarksburg, California.\n\nUna casa familiar del delta del Sacramento: fruta generosa, barrica amable y carácter directo.\n\nMaridaje: camarones al ajillo, elote asado con mantequilla, pollo a las brasas.\n\nPróximamente en boutique."
+    },
+    {
+      "filename": "11-educacion-temperaturas.png",
+      "publish_order": 11,
+      "grid_position": 11,
+      "type": "educacion",
+      "title": "Educación · Temperaturas de servicio",
+      "caption": "Ni congelado ni tibio: cada vino tiene su temperatura.\n\nGuarda esta tabla — tu refrigerador está a 4 °C, así que saca el blanco 15 minutos antes de servir."
+    },
+    {
+      "filename": "12-cierre.png",
+      "publish_order": 12,
+      "grid_position": 12,
+      "type": "cierre",
+      "title": "Cierre · La espera también se cata",
+      "caption": "La espera también se cata.\n\nSeguimos preparando la boutique en La Paz. Gracias por acompañarnos — lo bueno respira antes de servirse.\n\n@v612wineboutique · v612.mx"
+    }
+  ]
+}

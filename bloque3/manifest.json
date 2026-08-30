@@ -1,0 +1,102 @@
+{
+  "bloque": 3,
+  "tema": "Maridaje BCS",
+  "posts": [
+    {
+      "filename": "post-01-lifestyle-costa.png",
+      "scheduled_date": "2026-08-03",
+      "caption": "El mar de Cortés en tu copa 🌊\n\nBaja California Sur nos regala mariscos extraordinarios — y esta semana te mostramos cómo el vino los eleva al siguiente nivel.\n\nBienvenido al Maridaje BCS: donde el océano y la viña se encuentran.\n\n#MaridajeBCS #V612WineBoutique #VinoBCS #LaCabos #BajaCalifornia #CulturaVino #MariscosYVino",
+      "type": "lifestyle",
+      "publish_order": 1
+    },
+    {
+      "filename": "FOTOS SAE-141.jpg",
+      "scheduled_date": "2026-08-04",
+      "caption": "Para abrir el apetito, nada como Ayala Brut Majeur 🥂\n\nEste Champagne de la Montagne de Reims es elegancia en cada burbuja: fresco, mineral, con notas de manzana verde y brioche.\n\nMaridaje ideal: ostiones frescos del Pacífico, ceviche de camarón, o simplemente para celebrar que vivimos en BCS.\n\n📍 SAE-141 | Disponible en V612 Wine Boutique La Paz\n\n#Ayala #ChampagneBrut #Maridaje #OsterionesDelPacifico #CevicheBCS #V612WineBoutique #VinoEnLaPaz",
+      "type": "product",
+      "sae": "SAE-141",
+      "wine": "Ayala Brut Majeur",
+      "publish_order": 2
+    },
+    {
+      "filename": "post-03-edu-mariscos-blancos.png",
+      "scheduled_date": "2026-08-05",
+      "caption": "La regla de oro: mariscos + vino blanco 🦐🍷\n\n¿Por qué funciona tan bien? Los vinos blancos con buena acidez \"limpian\" la grasa y el yodo del marisco, preparando el paladar para el siguiente bocado.\n\nBusca vinos con: acidez fresca, notas cítricas o minerales, y poca o nula madera.\n\n¿Tu marisco favorito en BCS? Cuéntanos en los comentarios 👇\n\n#EducaciónVino #MaridajeBCS #VinoBlanco #GastronomíaBCS #TipsDeVino #V612WineBoutique #SommelierTips",
+      "type": "educacion",
+      "publish_order": 3
+    },
+    {
+      "filename": "FOTOS SAE-93.jpg",
+      "scheduled_date": "2026-08-06",
+      "caption": "Sancerre Flora — la pureza del Loire en BCS 🌿\n\nSauvignon Blanc de Domaine Henri Bourgeois: cítrico, herbal, con esa mineralidad característica de los suelos de silex. Un vino que habla de su terroir.\n\nMaridaje perfecto: pulpo a las brasas con aceite de oliva, ensalada de pepino con limón, o las almejas chocolatas del Pacífico.\n\n📍 SAE-93 | En V612 Wine Boutique La Paz\n\n#Sancerre #LoireValley #SauvignonBlanc #MaridajeBCS #PulpoBCS #V612WineBoutique #VinoFrancés",
+      "type": "product",
+      "sae": "SAE-93",
+      "wine": "Sancerre Flora",
+      "publish_order": 4
+    },
+    {
+      "filename": "post-05-edu-burbujas-mariscos.png",
+      "scheduled_date": "2026-08-07",
+      "caption": "Burbujas + mariscos = la combinación perfecta 🍾\n\nEl CO₂ del espumoso actúa como limpiador natural del paladar, cortando la salinidad del marisco y preparándote para el siguiente sorbo.\n\nFunciona especialmente bien con:\n✦ Ostiones al natural\n✦ Ceviche de camarón\n✦ Salpicón de jaiba\n\n¿Ya probaste esta combinación? 👇\n\n#Champagne #EspumosoyMariscos #BurbujasYVino #MaridajeBCS #OsteriosBCS #V612WineBoutique #TipsMaridaje",
+      "type": "educacion",
+      "publish_order": 5
+    },
+    {
+      "filename": "FOTOS SAE-95.jpg",
+      "scheduled_date": "2026-08-08",
+      "caption": "Roseblood Rosé — color de atardecer bajacaliforniano 🌅\n\nEste rosado de Pays d'Oc tiene todo: color vibrante, notas de fresa fresca, sandía y una acidez que invita al siguiente sorbo.\n\nMaridaje ideal para BCS: tacos de camarón empanizados, aguachile verde, o una paella con mariscos locales.\n\nEl rosado no es de moda — es el vino más versátil del mundo.\n\n📍 SAE-95 | V612 Wine Boutique La Paz\n\n#RosebloodRose #VinoRosado #PaysDoc #MaridajeBCS #TacosDeMarisco #AguachileBCS #V612WineBoutique",
+      "type": "product",
+      "sae": "SAE-95",
+      "wine": "Roseblood Rosé",
+      "publish_order": 6
+    },
+    {
+      "filename": "post-07-edu-tinto-atun.png",
+      "scheduled_date": "2026-08-09",
+      "caption": "¿Tinto con mariscos? ¡Sí, si sabes elegir! 🐟🍷\n\nLa regla no es \"nunca tinto con mariscos\" — la regla es elegir el tinto correcto.\n\nClaves para el maridaje:\n✦ Elige tintos ligeros, con poca madera y taninos suaves\n✦ El atún y el marlín a las brasas aguantan perfectamente un Pinot Noir\n✦ Evita tintos pesados con mariscos delicados\n\nEl BCS pesca atún azul de talla mundial. Merece un vino a la altura.\n\n#TintoConMariscos #PinotNoir #AtunBCS #MaridajeBCS #TipsDeVino #V612WineBoutique #GastronomíaBCS",
+      "type": "educacion",
+      "publish_order": 7
+    },
+    {
+      "filename": "FOTOS SAE-94.jpg",
+      "scheduled_date": "2026-08-10",
+      "caption": "Bourgogne Pinot Noir — Borgoña en estado puro 🍇\n\nElegante, frutal y con esa seducción borgoñona que lo hace diferente a cualquier otro tinto del mundo. Cereza fresca, tierra húmeda, y una acidez que lo hace perfecto para la mesa.\n\nMaridaje para BCS: atún aleta azul sellado, marlín en escabeche, o un aguachile rojo de camarón para los más atrevidos.\n\n📍 SAE-94 | V612 Wine Boutique La Paz\n\n#Bourgogne #PinotNoir #Borgoña #MaridajeBCS #AtunAletaAzul #V612WineBoutique #VinoFrancés",
+      "type": "product",
+      "sae": "SAE-94",
+      "wine": "Bourgogne Pinot Noir",
+      "publish_order": 8
+    },
+    {
+      "filename": "post-09-edu-copas-mariscos.png",
+      "scheduled_date": "2026-08-11",
+      "caption": "El arte del maridaje: más intuición que ciencia 🎨\n\nNo hay reglas absolutas — hay principios.\n\nEl principio más útil: busca el equilibrio de intensidades. Un marisco delicado pide un vino delicado. Un platillo potente aguanta un vino potente.\n\n¿Cuál es el mejor maridaje? El que a ti te gusta.\n\n¿Qué vino tomas más seguido con mariscos? 👇\n\n#MaridajeBCS #FilosofíaDelVino #EquilibrioDeIntensidades #TipsVino #V612WineBoutique #CulturaVinoBCS #MariscosYVino",
+      "type": "educacion",
+      "publish_order": 9
+    },
+    {
+      "filename": "FOTOS SAE-133.jpg",
+      "scheduled_date": "2026-08-12",
+      "caption": "El Morisco · Amigos del Tiempo — Pinot Noir con alma bajacaliforniana 🌵\n\nVino mexicano de altura: Pinot Noir con carácter, frutos rojos silvestres, especias suaves y esa personalidad que solo los vinos de México pueden tener.\n\nMaridaje ideal: langosta entera a las brasas — la experiencia gastronómica más BCS que existe. También: atún tataki, o un ceviche de camarón con toques de chile ancho.\n\n📍 SAE-133 | V612 Wine Boutique La Paz\n\n#ElMorisco #AmigoDelTiempo #VinoMexicano #PinotNoir #LangostaBCS #MaridajeBCS #V612WineBoutique",
+      "type": "product",
+      "sae": "SAE-133",
+      "wine": "El Morisco · Amigos del Tiempo Pinot Noir",
+      "publish_order": 10
+    },
+    {
+      "filename": "post-11-lifestyle-sunset.png",
+      "scheduled_date": "2026-08-13",
+      "caption": "Algunas cosas en la vida simplemente van juntas 🥂\n\nEl Mar de Cortés, un atardecer de BCS, buena compañía, y el vino perfecto.\n\nEso es lo que hacemos en V612: encontrar el vino que convierte un momento ordinario en algo que no olvidarás.\n\n¿Con quién compartirías este atardecer? 👇\n\n#V612WineBoutique #AtardecerBCS #LosCabos #LaPaz #VinoYMar #MomentosV612 #BajaCaliforniaSur",
+      "type": "lifestyle",
+      "publish_order": 11
+    },
+    {
+      "filename": "FOTOS SAE-140.jpg",
+      "scheduled_date": "2026-08-14",
+      "caption": "Para cerrar la semana Maridaje BCS: Ayala Rosé Majeur 🌸\n\nEl rosado más elegante de Champagne. Pinot Noir dominante, con notas de frambuesa, pétalos de rosa y una burbuja finísima que persiste eternamente.\n\nEl cierre perfecto de nuestra semana de maridaje: ostiones frescos, salpicón de jaiba, o simplemente mirando el atardecer del Pacífico.\n\nGracias por acompañarnos en esta semana de maridaje BCS 🙏\n\n📍 SAE-140 | V612 Wine Boutique La Paz\n\n#AyalaRose #ChampagneRose #MaridajeBCS #CierreDeBloque #V612WineBoutique #VinoEnLaPaz #OsteriosBCS",
+      "type": "product",
+      "sae": "SAE-140",
+      "wine": "Ayala Rosé Majeur",
+      "publish_order": 12
+    }
+  ]
+}
