@@ -5,111 +5,124 @@
   "posts": [
     {
       "publish_order": 1,
-      "filename": "post-01-lifestyle-patria.png",
+      "filename": "disenos/post-01.jpg",
       "scheduled_date": "2026-09-01",
       "caption": "Septiembre sabe a México 🇲🇽\n\nEl mes de la patria también es el mes de la vendimia en Valle de Guadalupe — cuando la vid descansa y el vino empieza su camino hacia la botella.\n\nEste septiembre celebramos con los vinos que queremos y los platillos que nos definen.\n\nBienvenidos al Mes de la Patria en V612 🍷\n\n#MesDeLaPatria #V612WineBoutique #VinoBCS #Septiembre #VendimiaVdG #MéxicoVinícola",
       "type": "lifestyle",
-      "higgsfield_prompt": "Festive elegant Mexican September scene: green white red color palette, wine glasses on a beautifully set table with marigold flowers (cempasúchil), fresh pomegranate seeds, green chiles, softly lit warm interior, Mexican Independence Day atmosphere, no wine bottles, luxury lifestyle editorial photography"
+      "higgsfield_prompt": "Festive elegant Mexican September scene: green white red color palette, wine glasses on a beautifully set table with marigold flowers (cempasúchil), fresh pomegranate seeds, green chiles, softly lit warm interior, Mexican Independence Day atmosphere, no wine bottles, luxury lifestyle editorial photography",
+      "source_image": "post-01-lifestyle-patria.png"
     },
     {
       "publish_order": 2,
-      "filename": "post-02-edu-vendimia.png",
+      "filename": "disenos/post-02.jpg",
       "scheduled_date": "2026-09-03",
       "caption": "Septiembre = Vendimia en Valle de Guadalupe 🍇\n\nMientras México celebra su independencia, el Valle de Guadalupe en Baja California cosecha su uva más importante del año.\n\nLa vendimia 2026 ya comenzó:\n✦ Uvas blancas primero: Chardonnay, Sauvignon Blanc\n✦ Luego las tintas: Cabernet, Tempranillo, Nebbiolo\n✦ Cada bodega tiene su propia fecha — es un maratón, no un sprint\n\n¿Has visitado el Valle durante vendimia? 👇\n\n#VendimiaVdG #ValleDeGuadalupe #BajaCalifornia #MéxicoVinícola #CulturaVino #V612WineBoutique",
       "type": "educacion",
-      "higgsfield_prompt": "Scenic vineyard harvest scene in Baja California Mexico at golden hour, vineyard workers picking grapes in green rows, rustic wooden bins full of dark grapes, morning mist over the Valle de Guadalupe hills, warm harvest season light, editorial documentary photography, no wine bottles visible"
+      "higgsfield_prompt": "Scenic vineyard harvest scene in Baja California Mexico at golden hour, vineyard workers picking grapes in green rows, rustic wooden bins full of dark grapes, morning mist over the Valle de Guadalupe hills, warm harvest season light, editorial documentary photography, no wine bottles visible",
+      "source_image": "post-02-edu-vendimia.png"
     },
     {
       "publish_order": 3,
-      "filename": "FOTOS SAE-136.jpg",
+      "filename": "disenos/post-03.jpg",
       "scheduled_date": "2026-09-05",
       "caption": "Para el mole, solo una Garnacha puede 🍫🌶️\n\nLupier La Dama — Garnacha de viñas viejas de más de 100 años en Navarra, España. Elaborada por el genio Raúl Pérez. Frutos rojos silvestres, tierra, especias, y una elegancia que desafía lo que crees saber de la Garnacha.\n\nMole negro oaxaqueño + La Dama = el maridaje más mexicano-español que puedas imaginar.\n\n📍 SAE-136 | V612 Wine Boutique La Paz\n\n#LupierLaDama #Garnacha #RaúlPérez #MoleNegro #MaridajePatrio #V612WineBoutique #VinoEspañol",
       "type": "producto",
       "sae": "SAE-136",
-      "wine": "Lupier La Dama Garnacha"
+      "wine": "Lupier La Dama Garnacha",
+      "source_image": "FOTOS SAE-136.jpg"
     },
     {
       "publish_order": 4,
-      "filename": "post-04-edu-chiles-nogada.png",
+      "filename": "disenos/post-04.jpg",
       "scheduled_date": "2026-09-08",
-      "caption": "El platillo más mexicano del año 🇲🇽\n\nChiles en nogada — verde (poblano), blanco (nogada), rojo (granada). Solo en septiembre.\n\n¿Qué vino va con tan complejo platillo?\n\n✦ La nogada es cremosa y dulce → pide acidez fresca\n✦ La carne tiene especias cálidas → pide algo frutal\n✦ La granada es ácida y jugosa → pide mineralidad\n\nRespuesta: un blanco con cuerpo o un tinto muy ligero y frutal.\n\n¿Tú qué tomarías? 👇\n\n#ChilesEnNogada #MaridajePatrio #MesDeLaPatria #V612WineBoutique #TipsDeVino #GastronomíaMexicana",
+      "caption": "El platillo más mexicano del año 🇲🇽\n\nChiles en nogada — verde (poblano), blanco (nogada), rojo (granada). Solo en septiembre.\n\n¿Qué vino va con tan complejo platillo?\n\n✦ La nogada es cremosa y dulce → pide acidez fresca\n✦ La carne tiene especias cálidas → pide algo frutal\n✦ La granada es ácida y jugosa → pide mineralidad\n\nRespuesta: un rosado seco y frutal — o un blanco con cuerpo.\n\n¿Tú qué tomarías? 👇\n\n#ChilesEnNogada #MaridajePatrio #MesDeLaPatria #V612WineBoutique #TipsDeVino #GastronomíaMexicana",
       "type": "educacion",
-      "higgsfield_prompt": "Close-up elegant food photography of chiles en nogada on a talavera plate: green poblano chile stuffed with picadillo, covered in white walnut cream sauce (nogada) and garnished with red pomegranate seeds and fresh parsley, Mexican flag colors, white marble surface, natural light, fine dining editorial"
+      "higgsfield_prompt": "Close-up elegant food photography of chiles en nogada on a talavera plate: green poblano chile stuffed with picadillo, covered in white walnut cream sauce (nogada) and garnished with red pomegranate seeds and fresh parsley, Mexican flag colors, white marble surface, natural light, fine dining editorial",
+      "source_image": "post-04-edu-chiles-nogada.png"
     },
     {
       "publish_order": 5,
-      "filename": "post-05-lifestyle-mesa-patria.png",
+      "filename": "disenos/post-05.jpg",
       "scheduled_date": "2026-09-10",
       "caption": "La mesa del 15 ya se está armando 🌙\n\nEn BCS celebramos el Grito con el Mar de Cortés de fondo y el mejor vino en la copa.\n\nEste año, ¿qué hay en tu mesa?\n\n#GritoDeLaIndependencia #MesDeLaPatria #V612WineBoutique #LaPazBCS #BajaCalifornia #FiestaBCS #CelebrarConVino",
       "type": "lifestyle",
-      "higgsfield_prompt": "Festive Mexican Independence night celebration table setup: marigold flowers, red green white decorations, wine glasses, traditional Mexican food spread including chiles, pozole, tamales on colorful talavera dishes, candlelight, warm fiesta atmosphere, no wine bottles, editorial lifestyle photography"
+      "higgsfield_prompt": "Festive Mexican Independence night celebration table setup: marigold flowers, red green white decorations, wine glasses, traditional Mexican food spread including chiles, pozole, tamales on colorful talavera dishes, candlelight, warm fiesta atmosphere, no wine bottles, editorial lifestyle photography",
+      "source_image": "post-05-lifestyle-mesa-patria.png"
     },
     {
       "publish_order": 6,
-      "filename": "FOTOS SAE-132.jpg",
+      "filename": "disenos/post-06.jpg",
       "scheduled_date": "2026-09-12",
-      "caption": "Juggernaut Chardonnay para los Chiles en Nogada 🤍\n\nSonoma Coast Chardonnay de California: cremoso, con notas de durazno blanco, mantequilla fina y una acidez que equilibra perfectamente la nogada.\n\nEste es el vino que los Chiles en Nogada estaban esperando.\n\nBlanco + cremoso + ácido = maridaje perfecto para el platillo más patriótico del año.\n\n📍 SAE-132 | V612 Wine Boutique La Paz\n\n#Juggernaut #SonomaChardonnay #ChilesEnNogada #MaridajePatrio #V612WineBoutique #VinoBlanco #MesDeLaPatria",
+      "caption": "Rosé para los Chiles en Nogada 🌷\n\nBogle Rosé de California: fresco, seco, con notas de fresa y sandía, y la acidez justa para equilibrar la cremosidad de la nogada.\n\nRosado + fresco + frutal = el maridaje que los Chiles en Nogada estaban esperando.\n\n📍 SAE-130 | V612 Wine Boutique La Paz\n\n#BogleRosé #Rosé #ChilesEnNogada #MaridajePatrio #V612WineBoutique #VinoRosado #MesDeLaPatria",
       "type": "producto",
-      "sae": "SAE-132",
-      "wine": "Juggernaut Sonoma Coast Chardonnay"
+      "sae": "SAE-130",
+      "wine": "Bogle Rosé",
+      "source_image": "FOTOS SAE-132.jpg"
     },
     {
       "publish_order": 7,
-      "filename": "post-07-lifestyle-grito.png",
+      "filename": "disenos/post-07.jpg",
       "scheduled_date": "2026-09-15",
       "caption": "¡Viva México! 🇲🇽🍷\n\nEsta noche brindamos por lo que somos:\nUn país con una de las gastronomías más ricas del mundo,\nuna tierra con viñas que ya compiten con las mejores del mundo,\ny un BCS que tiene el mar más bello del planeta.\n\nSalud y ¡que viva México!\n\n#VivaMéxico #GritoDeLaIndependencia #V612WineBoutique #LaPazBCS #VinoBCS #15deSeptiembre #Independencia",
       "type": "lifestyle",
-      "higgsfield_prompt": "Mexican Independence night celebration: fireworks over the ocean in Los Cabos Baja California Sur, two elegant wine glasses clinking in the foreground with the colorful fireworks display in the background, Mexican flag colors in the sky, romantic patriotic atmosphere, no wine bottles, cinematic photography"
+      "higgsfield_prompt": "Mexican Independence night celebration: fireworks over the ocean in Los Cabos Baja California Sur, two elegant wine glasses clinking in the foreground with the colorful fireworks display in the background, Mexican flag colors in the sky, romantic patriotic atmosphere, no wine bottles, cinematic photography",
+      "source_image": "post-07-lifestyle-grito.png"
     },
     {
       "publish_order": 8,
-      "filename": "post-08-edu-pozole.png",
+      "filename": "disenos/post-08.jpg",
       "scheduled_date": "2026-09-17",
       "caption": "Pozole rojo vs pozole blanco — dos vinos distintos 🍲\n\n🔴 Pozole rojo: chile guajillo, chile ancho, sabores profundos y ahumados → tinto de cuerpo medio, frutal\n⬜ Pozole blanco: caldo limpio, hierbas, orégano → blanco aromático o rosado seco\n\nEl pozole es uno de los platillos más complejos para maridar porque el caldo lo cambia todo.\n\n¿Cuál prefieres tú? 👇\n\n#Pozole #MaridajePatrio #TipsDeVino #V612WineBoutique #GastronomíaMexicana #MesDeLaPatria #CulturaVino",
       "type": "educacion",
-      "higgsfield_prompt": "Split composition food photography: on the left a bowl of pozole rojo with deep red broth, pork, garnished with shredded cabbage, radish, oregano and tostadas; on the right a bowl of pozole blanco with clear broth, same garnishes; elegant dark wooden table, warm dramatic lighting, fine dining editorial style"
+      "higgsfield_prompt": "Split composition food photography: on the left a bowl of pozole rojo with deep red broth, pork, garnished with shredded cabbage, radish, oregano and tostadas; on the right a bowl of pozole blanco with clear broth, same garnishes; elegant dark wooden table, warm dramatic lighting, fine dining editorial style",
+      "source_image": "post-08-edu-pozole.png"
     },
     {
       "publish_order": 9,
-      "filename": "FOTOS SAE-131.jpg",
+      "filename": "disenos/post-09.jpg",
       "scheduled_date": "2026-09-19",
       "caption": "Juggernaut Hillside Cabernet — para cuando el plato pesa 🥩\n\nBirria de res, carnitas, barbacoa — los platillos más intensos del mes de la patria piden un vino que no les tema.\n\nJuggernaut Hillside Cab de California: casis, mora, taninos firmes, roble bien integrado. Un Cabernet de carácter que aguanta la potencia del chile y la grasa del guiso.\n\nEl nombre lo dice todo: Juggernaut.\n\n📍 SAE-131 | V612 Wine Boutique La Paz\n\n#JuggernautCabernet #HillsideCabernet #Birria #CarnitasMexicanas #MaridajePatrio #V612WineBoutique #VinoCaliforniano",
       "type": "producto",
       "sae": "SAE-131",
-      "wine": "Juggernaut Hillside Cabernet Sauvignon"
+      "wine": "Juggernaut Hillside Cabernet Sauvignon",
+      "source_image": "FOTOS SAE-131.jpg"
     },
     {
       "publish_order": 10,
-      "filename": "post-10-edu-valle-guadalupe.png",
+      "filename": "disenos/post-10.jpg",
       "scheduled_date": "2026-09-22",
       "caption": "Valle de Guadalupe: la Napa de México 🍇🇲🇽\n\n¿Sabías que Baja California produce el 90% del vino mexicano?\n\nEl Valle de Guadalupe tiene:\n✦ Clima mediterráneo único en América Latina\n✦ Más de 150 bodegas activas\n✦ Vendimia en agosto-octubre\n✦ Vinos que han ganado premios internacionales\n\nEn V612 seleccionamos los mejores — de México y del mundo.\n\n¿Has visitado el Valle? 👇\n\n#ValleDeGuadalupe #VinoMexicano #BajaCalifornia #MéxicoVinícola #V612WineBoutique #CulturaVino #VendimiaVdG",
       "type": "educacion",
-      "higgsfield_prompt": "Aerial or wide landscape view of Valle de Guadalupe wine region in Baja California Mexico: rolling vineyard hills, Mediterranean-style winery buildings, dramatic sky with clouds, golden afternoon light, rustic wine country atmosphere, no people, cinematic landscape photography"
+      "higgsfield_prompt": "Aerial or wide landscape view of Valle de Guadalupe wine region in Baja California Mexico: rolling vineyard hills, Mediterranean-style winery buildings, dramatic sky with clouds, golden afternoon light, rustic wine country atmosphere, no people, cinematic landscape photography",
+      "source_image": "post-10-edu-valle-guadalupe.png"
     },
     {
       "publish_order": 11,
-      "filename": "FOTOS SAE-135.jpg",
+      "filename": "disenos/post-11.jpg",
       "scheduled_date": "2026-09-24",
       "caption": "Carpetano Garnacha 2019 para el Pozole Rojo 🌶️\n\nRaúl Pérez + Valquejigoso + Garnacha = un tinto que hace historia. Frutos rojos, pimienta, hierbas silvestres. Una Garnacha de alta montaña con alma rebelde.\n\nEl pozole rojo con sus chiles guajillo y ancho encontró su pareja perfecta.\n\nTintos con carácter para platillos con carácter — esa es la filosofía de V612.\n\n📍 SAE-135 | V612 Wine Boutique La Paz\n\n#Carpetano #Garnacha #RaúlPérez #PozoleRojo #MaridajePatrio #V612WineBoutique #VinoEspañol",
       "type": "producto",
       "sae": "SAE-135",
-      "wine": "Carpetano Garnacha 2019 · Valquejigoso · Raúl Pérez"
+      "wine": "Carpetano Garnacha 2019 · Valquejigoso · Raúl Pérez",
+      "source_image": "FOTOS SAE-135.jpg"
     },
     {
       "publish_order": 12,
-      "filename": "post-12-lifestyle-cierre.png",
+      "filename": "disenos/post-12.jpg",
       "scheduled_date": "2026-09-26",
       "caption": "Septiembre ya casi se va... y qué mes fue 🌙\n\nVendimias, gritos de independencia, chiles en nogada, pozoles, brindis y maridajes.\n\nEl vino es la hilo conductor de todas las celebraciones humanas — y este mes nos lo recordó.\n\nGracias por brindar con nosotros este septiembre 🍷\n\n#CierreDeSeptiembre #V612WineBoutique #MesDeLaPatria #VinoBCS #LaPazBCS #BajaCalifornia #HastaPronto",
       "type": "lifestyle",
-      "higgsfield_prompt": "Elegant melancholic end-of-September wine scene: a single wine glass with deep red wine catching the last golden light of a Pacific sunset in Baja California Sur, marigold petals on a wooden table, soft warm bokeh background of ocean horizon, intimate lifestyle editorial photography, no wine bottles"
+      "higgsfield_prompt": "Elegant melancholic end-of-September wine scene: a single wine glass with deep red wine catching the last golden light of a Pacific sunset in Baja California Sur, marigold petals on a wooden table, soft warm bokeh background of ocean horizon, intimate lifestyle editorial photography, no wine bottles",
+      "source_image": "post-12-lifestyle-cierre.png"
     },
     {
       "publish_order": 13,
-      "filename": "post-13-edu-identidad-mexicana.png",
+      "filename": "disenos/post-13.jpg",
       "scheduled_date": "2026-09-29",
       "caption": "El vino y la identidad mexicana 🇲🇽🍇\n\nMéxico tiene más de 400 años de historia vinícola — los misioneros españoles trajeron la vid en el siglo XVI.\n\nHoy, Baja California, Querétaro, Coahuila y San Luis Potosí producen vinos de clase mundial.\n\nEl vino mexicano no imita — innova. Tiene su propio carácter, sus propios varietales adaptados, su propia identidad.\n\n¿Ya probaste un vino 100% mexicano? ¿Cuál fue el primero?\n\n#VinoMexicano #IdentidadVinícola #MéxicoVinícola #V612WineBoutique #ValleDeGuadalupe #CulturaVino #BajaCalifornia",
       "type": "educacion",
-      "higgsfield_prompt": "Artistic editorial composition celebrating Mexican wine culture: a wine glass with deep red wine on a table with traditional Mexican elements — a small Mexican flag, marigold flowers, a piece of cacao, dried chiles — warm golden light, cultural identity mood, no wine bottles, fine art photography"
+      "higgsfield_prompt": "Artistic editorial composition celebrating Mexican wine culture: a wine glass with deep red wine on a table with traditional Mexican elements — a small Mexican flag, marigold flowers, a piece of cacao, dried chiles — warm golden light, cultural identity mood, no wine bottles, fine art photography",
+      "source_image": "post-13-edu-identidad-mexicana.png"
     }
   ]
 }
