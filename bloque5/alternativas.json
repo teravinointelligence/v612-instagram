@@ -1,0 +1,19 @@
+{
+  "nota": "Reemplazo opcional del post 26 (Uncle Nearest 1884). Si se elige, sustituir el objeto con publish_order 26 en manifest.json por este.",
+  "reemplaza_a": "Uncle Nearest 1884 Small Batch Whiskey",
+  "posts": [
+    {
+      "publish_order": 26,
+      "filename": "disenos/post-26.jpg",
+      "scheduled_date": "2026-11-27",
+      "type": "producto",
+      "title": "Freemark Abbey Cabernet · para el que ya tiene todo",
+      "overlay_text": "PARA EL QUE YA TIENE TODO\nFreemark Abbey · Napa Valley desde 1886",
+      "caption": "Ayer fue el pavo. El fin de semana de Thanksgiving sigue y la mesa pide un tinto serio.\n\nPara el que ya tiene todo: una botella para guardar y abrir en una fecha que importe.\n\nFreemark Abbey es un clásico de Napa Valley. La fundó en 1886 Josephine Tychson, una de las primeras mujeres vinicultoras del valle. No hay abadía detrás del nombre: combina los de los tres socios que la reabrieron en 1939. En el Juicio de París de 1976 fue la única bodega con un tinto y un blanco en la cata: un Cabernet Sauvignon y un Chardonnay.\n\nSu Cabernet Sauvignon de Napa Valley es amplio y redondo: frutos negros, chocolate amargo, cedro, café y pimienta negra; taninos estructurados e integrados. Se disfruta hoy y sabe esperar en la cava.\n\nEn la mesa:\n✦ Rib eye a las brasas\n✦ Pierna de cordero\n✦ Costilla de res\n✦ Quesos maduros\n\nDisponible en V612 Wine Boutique · La Paz\n\n#V612WineBoutique #MesaLargaV612 #LaPazBCS #FreemarkAbbey #NapaValley #CabernetSauvignon #VinoParaRegalar",
+      "alt_text": "Botella de Freemark Abbey Cabernet Sauvignon, vino tinto de Napa Valley, California, con el titular 'Para el que ya tiene todo' sobre fondo azul marino.",
+      "wine": "Freemark Abbey Cabernet Sauvignon",
+      "sku": "128FMACS",
+      "source_image": "product-images/128FMACS.jpg (foto real POS)"
+    }
+  ]
+}

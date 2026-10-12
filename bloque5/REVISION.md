@@ -713,3 +713,36 @@ La empresa está en administración judicial (receivership) desde agosto de 2025
 - https://expansion.mx/tendencias/2025/12/12/cuando-empiezan-las-posadas-2025-mexico
 
 </details>
+
+---
+
+## 5. Alternativa para el post 26: Freemark Abbey Cabernet Sauvignon (`alternativas.json`)
+
+**Por confirmar / notas de verificación:**
+
+- Decisión de negocio: este post es la ALTERNATIVA al de Uncle Nearest 1884 (post 26, viernes 27 nov). Hay que elegir uno; ver la sección 1.3 de bloque5/REVISION.md.
+- Existencias: solo hay 3 botellas en el POS. Confírmalas el día anterior. El caption no menciona escasez.
+- Notas de cata (corregidas en la edición final): el borrador decía 'elegante y contenido', 'zarzamora' y 'taninos firmes y pulidos'. La ficha oficial de la 2022 dice 'rich and round', 'black forest fruits' y taninos 'well structured and integrated'. Por eso ahora dice 'amplio y redondo: frutos negros… taninos estructurados e integrados'. Las notas cambian según la añada (la ficha de la 2021 habla de grosella negra, cereza oscura y moca). Sabrina debe validarlas con su propia cata de la botella que hay en tienda y ajustarlas si no coinciden.
+- Cepa y guarda: la ficha 2022 da 89% Cabernet Sauvignon, 8% Cabernet Franc, 2% Petit Verdot y 1% Merlot, con 20 meses en roble francés (47% nuevo) y 'enjoyable now or capable of cellaring well for decades'. El caption no dice '100% Cabernet' ni habla de décadas; 'Se disfruta hoy y sabe esperar en la cava' es una paráfrasis prudente.
+- Juicio de París (verificado): Freemark Abbey llevó un Cabernet Sauvignon 1969 y un Chardonnay 1972 a la cata de 1976. Fue la única bodega con tinto y blanco a la vez (fuentes: Wikipedia y el sitio y blog oficiales). Por la regla de premios y puntajes, el caption no da añadas ni posiciones (10.º y 6.º en 1976) ni menciona la recreación de Tokio de 2017. No se insinúa que la botella de la tienda sea el vino de 1976.
+- Región: en la tienda oficial, el campo de denominación de la 2022 dice 'North Coast', pero el título del producto, la URL, Jancis Robinson y los minoristas dicen Napa Valley. Confirma que la etiqueta física diga 'Napa Valley' (aparece en el caption, en el overlay y en el alt_text).
+- Historia: las fuentes no coinciden en cómo se escribe el nombre de uno de los socios de 1939 (Markquand o Marquand Foster) ni en el año en que Tychson vendió (1894 o 1898). Por eso el caption no da nombres ni esa fecha. La fundación en 1886 y la reapertura como Freemark Abbey en 1939 sí están confirmadas.
+- Josephine Tychson: se usa la fórmula de la bodega, 'una de las primeras mujeres vinicultoras' de Napa. No se afirma 'la primera de California', porque no está verificado.
+- Continuidad: 'Ayer fue el pavo' depende del post 25 (jueves 26). 'Para el que ya tiene todo…' retoma casi palabra por palabra el tercer perfil del post 23. Si mueves alguna fecha, revisa esas líneas.
+- Maridaje: a propósito no se sugiere pavo ni sus sobras; el post 24 (La Crema Pinot Noir) ya cubrió el pavo. La ficha oficial no da maridaje: el de rib eye, cordero, costilla de res y quesos maduros es criterio de sommelier.
+- Caption: 860 caracteres antes de los hashtags, 7 hashtags, 0 emojis y sin pregunta final. Línea opcional en inglés para residentes extranjeros que no se incluyó para no pasar de 900 caracteres: 'For the one who has everything: a Napa classic, made to be opened on a date that matters.'
+
+<details><summary>Fuentes</summary>
+
+- https://www.freemarkabbey.com/history
+- https://www.freemarkabbey.com/winemaking.html
+- https://www.freemarkabbey.com/blog-judgment-paris-st-helena-wine-icon.html
+- https://www.freemarkabbey.com/freemark-abbey-winery-napa-valley-cabernet-sauvignon-2022-750-ml/40022330SX.html
+- https://en.wikipedia.org/wiki/Judgment_of_Paris_(wine)
+- https://en.wikipedia.org/wiki/Freemark_Abbey_Winery
+- https://napagreen.org/?p=25539
+- https://www.jancisrobinson.com/tastings/310098
+- https://www.jancisrobinson.com/tastings/328045
+- https://buywinesonline.com/products/freemark-abbey-napa-valley-cabernet-sauvignon-2021-750-ml
+
+</details>
