@@ -11,6 +11,8 @@ Cada bloque cubre ~12 publicaciones (2 semanas) con un tema editorial.
 | Bloque 1 | Jul 7–19, 2026 | — |
 | Bloque 2 | Jul 22–Ago 2, 2026 | Cuaderno de Cata |
 | Bloque 3 | Ago 3–14, 2026 | Maridaje BCS |
+| Bloque 4 | Sep 1–29, 2026 | Mes de la Patria + Vendimia VdG (Mar/Jue/Sáb) |
+| Bloque 5 | Oct 15–Nov 29, 2026 | Mesa Larga (Mar/Jue/Vie/Dom · 27 posts) |
 
 ## Cómo seedear un bloque
 
