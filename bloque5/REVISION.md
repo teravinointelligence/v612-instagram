@@ -24,13 +24,13 @@ Cada caption pasó por tres etapas: redacción con investigación, verificación
 | 20 | Lechuza Chardonnay | Que sea el "Roble" y no el "Stainless Steel". |
 | 22 | Fleurie Levrattière | La grafía exacta del nombre del viñedo en la etiqueta. |
 | 24 | La Crema Pinot Noir | La región. Si dice Willamette Valley, el vino es de Oregon y hay que reescribir la línea de California. |
-| 26 | Uncle Nearest | Que sea la expresión 1884 Small Batch. |
+| 26 | Freemark Abbey Cabernet Sauvignon | Que la etiqueta diga "Napa Valley". En la tienda oficial, el campo de denominación de la añada 2022 dice "North Coast". |
 
 ### 1.2 Notas de cata que debes validar con tu propia cata
-No hay ficha oficial publicada para estos vinos, así que las notas son genéricas o vienen de terceros: **02, 04, 06, 08, 12, 20, 24**. Ajústalas con tus palabras; ese es justo el valor de que la cuenta la escriba una sommelier.
+No hay ficha oficial publicada para estos vinos, así que las notas son genéricas o vienen de terceros: **02, 04, 06, 08, 12, 20, 24, 26**. Ajústalas con tus palabras; ese es justo el valor de que la cuenta la escriba una sommelier.
 
-### 1.3 Decisión de negocio: post 26 (Uncle Nearest)
-La empresa está en administración judicial (receivership) desde agosto de 2025. En 2026 despidieron a los cofundadores y anunciaron una venta que todavía no se cierra. El caption solo cuenta la historia de Nearest Green y no menciona a la empresa. La alternativa verificada (Freemark Abbey Cabernet, Napa) está en `alternativas.json`. **Decide cuál va.**
+### 1.3 Post 26: decidido
+Elegiste **Freemark Abbey Cabernet Sauvignon** (Napa Valley) para el viernes 27 de noviembre. Uncle Nearest 1884 queda como respaldo en `alternativas.json`. No lo recomiendo mientras la empresa siga en administración judicial (sección 5).
 
 ### 1.4 Fotos e imágenes
 - **Post 15 (boutique): falta una FOTO REAL de la boutique** (anaqueles o mostrador). No se puede generar con IA.
@@ -40,7 +40,7 @@ La empresa está en administración judicial (receivership) desde agosto de 2025
 
 ### 1.5 Operación
 - Los posts 15, 23 y 27 invitan a escribir por DM. **Alguien tiene que contestar los DM** de noviembre y diciembre.
-- Confirma existencias el día anterior a cada post de producto. Los más justos: Vin de Constance (3), Uncle Nearest (3), Lindaflor (5) y El Pintor Mezcal (5).
+- Confirma existencias el día anterior a cada post de producto. Los más justos: Vin de Constance (3), Freemark Abbey Cabernet (3), Lindaflor (5) y El Pintor Mezcal (5).
 - **Calendario de producción:** el primer post sale el jueves 15 de octubre, así que los posts 1 a 3 tienen que estar diseñados y cargados para el miércoles 14. Si no da tiempo, conviene arrancar el martes 20 y recorrer la apertura.
 
 ---
@@ -87,7 +87,7 @@ La empresa está en administración judicial (receivership) desde agosto de 2025
 | 23 | Dom 22 nov | educación | Cómo regalar vino |
 | 24 | Mar 24 nov | producto | La Crema Pinot Noir · para el pavo |
 | 25 | Jue 26 nov | lifestyle | Thanksgiving |
-| 26 | Vie 27 nov | producto | Uncle Nearest 1884 (o alternativa: Freemark Abbey Cabernet) |
+| 26 | Vie 27 nov | producto | Freemark Abbey Cabernet Sauvignon · para el que ya tiene todo |
 | 27 | Dom 29 nov | cierre | La mesa sigue en diciembre |
 
 ---
@@ -671,56 +671,12 @@ La empresa está en administración judicial (receivership) desde agosto de 2025
 
 </details>
 
-### 26 · Vie 27/11 · producto · Uncle Nearest 1884 Small Batch Whiskey
+### 26 · Vie 27/11 · producto · Freemark Abbey Cabernet Sauvignon
 
-**Imagen:** product-images/420UNCLE18.jpg
-
-**Por confirmar / notas de verificación:**
-
-- DECIDIR ANTES DE PUBLICAR (riesgo de reputación y de abasto). La empresa Uncle Nearest está bajo administración judicial (receivership) desde agosto de 2025, a raíz de una demanda de su acreedor Farm Credit Mid-America. En marzo de 2026 presentó una solicitud de bancarrota y el tribunal la desestimó. En mayo de 2026 el juez mantuvo y amplió la receivership. El receiver despidió a los cofundadores Fawn y Keith Weaver con efecto al 1 de junio de 2026 (se informó en julio). Desde junio de 2026 hay una carta de intención no vinculante para vender la marca y la destilería a un comprador confidencial. No se sabe si la venta se cerró ni si el abasto en México va a continuar. Fuentes: just-drinks.com/news/uncle-nearest-to-remain-under-court-control/ ; whiskymag.com/articles/uncle-nearest-faces-receivership-following-lawsuit/ ; news.bgov.com/delaware-brief/whiskey-maker-uncle-nearest-files-bankruptcy-as-ceo-sues-lender ; wsmv.com/2026/07/14/uncle-nearest-ceo-husband-fired-amid-financial-turmoil-court-filings-say/ ; fredminnick.com/2026/06/02/uncle-nearest-brand-reportedly-to-have-found-buyer/. Recomendación: confirma con el proveedor que habrá continuidad o cambia este post de viernes por otro producto. Si se publica, el caption habla solo de Nearest Green y no menciona la empresa ni a sus fundadores. Prepara una respuesta breve por si llegan comentarios sobre el tema.
-- Corregido según la verificación: el filtrado con carbón de arce ya no se le atribuye como hecho, sino como 'la tradición le atribuye'. Que enseñó el oficio a Jack Daniel sí tiene respaldo: Brown-Forman lo reconoció en 2017 como primer maestro destilador de Jack Daniel's. La mención es histórica, no comercial.
-- Agregué 'es un whiskey de Tennessee' para cumplir la regla 7 (qué es y de dónde es). No afirmo dónde se destila hoy.
-- Las notas de cata ahora siguen la ficha oficial (unclenearest.com): miel y azúcar morena en nariz; caramelo, canela y madera especiada en boca; final largo y suave. Confírmalas al probarlo.
-- No incluí por qué se llama '1884'. Según un comunicado de la marca de 2019, recuerda el último año en que Nearest barricó su propio destilado. Es un dato promocional: si lo quieres, agrégalo con atribución ('según la casa').
-- No menciono edad ni graduación. La ficha oficial indica 93 proof (46.5%), pero no confirmé que la etiqueta que se vende en México tenga la misma graduación.
-- Confirma que la foto real del POS es la expresión 1884 Small Batch.
-- No se menciona Black Friday ni ninguna promoción. Hay 3 en existencia y el caption no afirma escasez.
-
-<details><summary>Fuentes</summary>
-
-- https://www.nearestgreen.com/about-nearest-green/
-- https://www.history.com/articles/jack-daniels-enslaved-distiller-nathan-nearest-green
-- https://en.wikipedia.org/wiki/Nathan_%22Nearest%22_Green
-- https://vinepair.com/articles/ntk-uncle-nearest-whiskey/
-- https://www.unclenearest.com/
-- https://unclenearest.com/1884-small-batch-whiskey/
-- https://americanwhiskeymag.com/reviews/23uncle-nearest-1884-small-batch-tennessee-whiskey/
-
-</details>
-
-### 27 · Dom 29/11 · cierre · Cierre Mesa Larga · nos vemos en diciembre
-
-**Imagen:** post-27-cierre-diciembre.png
+**Imagen:** product-images/128FMACS.jpg
 
 **Por confirmar / notas de verificación:**
 
-- La primera línea menciona la ofrenda, el puente, el Beaujolais y el pavo. Confirma que el bloque sí publicó esos temas. Si alguno se cayó, quítalo de esa línea.
-- 'Escríbenos por DM y lo pensamos juntos' no promete ningún servicio concreto: ni armado de regalos corporativos, ni entregas, ni descuentos. Confirma que habrá quien atienda los DM en diciembre.
-- Revisa la imagen de Higgsfield: sin botellas, etiquetas, texto, logotipos ni personas identificables. Los detalles navideños deben quedar discretos.
-
-<details><summary>Fuentes</summary>
-
-- https://expansion.mx/tendencias/2025/12/12/cuando-empiezan-las-posadas-2025-mexico
-
-</details>
-
----
-
-## 5. Alternativa para el post 26: Freemark Abbey Cabernet Sauvignon (`alternativas.json`)
-
-**Por confirmar / notas de verificación:**
-
-- Decisión de negocio: este post es la ALTERNATIVA al de Uncle Nearest 1884 (post 26, viernes 27 nov). Hay que elegir uno; ver la sección 1.3 de bloque5/REVISION.md.
 - Existencias: solo hay 3 botellas en el POS. Confírmalas el día anterior. El caption no menciona escasez.
 - Notas de cata (corregidas en la edición final): el borrador decía 'elegante y contenido', 'zarzamora' y 'taninos firmes y pulidos'. La ficha oficial de la 2022 dice 'rich and round', 'black forest fruits' y taninos 'well structured and integrated'. Por eso ahora dice 'amplio y redondo: frutos negros… taninos estructurados e integrados'. Las notas cambian según la añada (la ficha de la 2021 habla de grosella negra, cereza oscura y moca). Sabrina debe validarlas con su propia cata de la botella que hay en tienda y ajustarlas si no coinciden.
 - Cepa y guarda: la ficha 2022 da 89% Cabernet Sauvignon, 8% Cabernet Franc, 2% Petit Verdot y 1% Merlot, con 20 meses en roble francés (47% nuevo) y 'enjoyable now or capable of cellaring well for decades'. El caption no dice '100% Cabernet' ni habla de décadas; 'Se disfruta hoy y sabe esperar en la cava' es una paráfrasis prudente.
@@ -744,5 +700,50 @@ La empresa está en administración judicial (receivership) desde agosto de 2025
 - https://www.jancisrobinson.com/tastings/310098
 - https://www.jancisrobinson.com/tastings/328045
 - https://buywinesonline.com/products/freemark-abbey-napa-valley-cabernet-sauvignon-2021-750-ml
+
+</details>
+
+### 27 · Dom 29/11 · cierre · Cierre Mesa Larga · nos vemos en diciembre
+
+**Imagen:** post-27-cierre-diciembre.png
+
+**Por confirmar / notas de verificación:**
+
+- La primera línea menciona la ofrenda, el puente, el Beaujolais y el pavo. Confirma que el bloque sí publicó esos temas. Si alguno se cayó, quítalo de esa línea.
+- 'Escríbenos por DM y lo pensamos juntos' no promete ningún servicio concreto: ni armado de regalos corporativos, ni entregas, ni descuentos. Confirma que habrá quien atienda los DM en diciembre.
+- Revisa la imagen de Higgsfield: sin botellas, etiquetas, texto, logotipos ni personas identificables. Los detalles navideños deben quedar discretos.
+
+<details><summary>Fuentes</summary>
+
+- https://expansion.mx/tendencias/2025/12/12/cuando-empiezan-las-posadas-2025-mexico
+
+</details>
+
+---
+
+## 5. Alternativa descartada para el post 26: Uncle Nearest 1884 Small Batch Whiskey (`alternativas.json`)
+
+**Imagen:** product-images/420UNCLE18.jpg
+
+**Por confirmar / notas de verificación:**
+
+- DECIDIR ANTES DE PUBLICAR (riesgo de reputación y de abasto). La empresa Uncle Nearest está bajo administración judicial (receivership) desde agosto de 2025, a raíz de una demanda de su acreedor Farm Credit Mid-America. En marzo de 2026 presentó una solicitud de bancarrota y el tribunal la desestimó. En mayo de 2026 el juez mantuvo y amplió la receivership. El receiver despidió a los cofundadores Fawn y Keith Weaver con efecto al 1 de junio de 2026 (se informó en julio). Desde junio de 2026 hay una carta de intención no vinculante para vender la marca y la destilería a un comprador confidencial. No se sabe si la venta se cerró ni si el abasto en México va a continuar. Fuentes: just-drinks.com/news/uncle-nearest-to-remain-under-court-control/ ; whiskymag.com/articles/uncle-nearest-faces-receivership-following-lawsuit/ ; news.bgov.com/delaware-brief/whiskey-maker-uncle-nearest-files-bankruptcy-as-ceo-sues-lender ; wsmv.com/2026/07/14/uncle-nearest-ceo-husband-fired-amid-financial-turmoil-court-filings-say/ ; fredminnick.com/2026/06/02/uncle-nearest-brand-reportedly-to-have-found-buyer/. Recomendación: confirma con el proveedor que habrá continuidad o cambia este post de viernes por otro producto. Si se publica, el caption habla solo de Nearest Green y no menciona la empresa ni a sus fundadores. Prepara una respuesta breve por si llegan comentarios sobre el tema.
+- Corregido según la verificación: el filtrado con carbón de arce ya no se le atribuye como hecho, sino como 'la tradición le atribuye'. Que enseñó el oficio a Jack Daniel sí tiene respaldo: Brown-Forman lo reconoció en 2017 como primer maestro destilador de Jack Daniel's. La mención es histórica, no comercial.
+- Agregué 'es un whiskey de Tennessee' para cumplir la regla 7 (qué es y de dónde es). No afirmo dónde se destila hoy.
+- Las notas de cata ahora siguen la ficha oficial (unclenearest.com): miel y azúcar morena en nariz; caramelo, canela y madera especiada en boca; final largo y suave. Confírmalas al probarlo.
+- No incluí por qué se llama '1884'. Según un comunicado de la marca de 2019, recuerda el último año en que Nearest barricó su propio destilado. Es un dato promocional: si lo quieres, agrégalo con atribución ('según la casa').
+- No menciono edad ni graduación. La ficha oficial indica 93 proof (46.5%), pero no confirmé que la etiqueta que se vende en México tenga la misma graduación.
+- Confirma que la foto real del POS es la expresión 1884 Small Batch.
+- No se menciona Black Friday ni ninguna promoción. Hay 3 en existencia y el caption no afirma escasez.
+
+<details><summary>Fuentes</summary>
+
+- https://www.nearestgreen.com/about-nearest-green/
+- https://www.history.com/articles/jack-daniels-enslaved-distiller-nathan-nearest-green
+- https://en.wikipedia.org/wiki/Nathan_%22Nearest%22_Green
+- https://vinepair.com/articles/ntk-uncle-nearest-whiskey/
+- https://www.unclenearest.com/
+- https://unclenearest.com/1884-small-batch-whiskey/
+- https://americanwhiskeymag.com/reviews/23uncle-nearest-1884-small-batch-tennessee-whiskey/
 
 </details>

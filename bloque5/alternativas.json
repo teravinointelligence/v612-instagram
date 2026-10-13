@@ -1,19 +1,19 @@
 {
-  "nota": "Reemplazo opcional del post 26 (Uncle Nearest 1884). Si se elige, sustituir el objeto con publish_order 26 en manifest.json por este.",
-  "reemplaza_a": "Uncle Nearest 1884 Small Batch Whiskey",
+  "nota": "Alternativa descartada para el post 26. Sabrina eligió Freemark Abbey Cabernet Sauvignon (13 oct 2026). Uncle Nearest queda como respaldo; la empresa está en administración judicial (ver REVISION.md, sección 5).",
+  "reemplaza_a": "Freemark Abbey Cabernet Sauvignon",
   "posts": [
     {
       "publish_order": 26,
       "filename": "disenos/post-26.jpg",
       "scheduled_date": "2026-11-27",
       "type": "producto",
-      "title": "Freemark Abbey Cabernet · para el que ya tiene todo",
-      "overlay_text": "PARA EL QUE YA TIENE TODO\nFreemark Abbey · Napa Valley desde 1886",
-      "caption": "Ayer fue el pavo. El fin de semana de Thanksgiving sigue y la mesa pide un tinto serio.\n\nPara el que ya tiene todo: una botella para guardar y abrir en una fecha que importe.\n\nFreemark Abbey es un clásico de Napa Valley. La fundó en 1886 Josephine Tychson, una de las primeras mujeres vinicultoras del valle. No hay abadía detrás del nombre: combina los de los tres socios que la reabrieron en 1939. En el Juicio de París de 1976 fue la única bodega con un tinto y un blanco en la cata: un Cabernet Sauvignon y un Chardonnay.\n\nSu Cabernet Sauvignon de Napa Valley es amplio y redondo: frutos negros, chocolate amargo, cedro, café y pimienta negra; taninos estructurados e integrados. Se disfruta hoy y sabe esperar en la cava.\n\nEn la mesa:\n✦ Rib eye a las brasas\n✦ Pierna de cordero\n✦ Costilla de res\n✦ Quesos maduros\n\nDisponible en V612 Wine Boutique · La Paz\n\n#V612WineBoutique #MesaLargaV612 #LaPazBCS #FreemarkAbbey #NapaValley #CabernetSauvignon #VinoParaRegalar",
-      "alt_text": "Botella de Freemark Abbey Cabernet Sauvignon, vino tinto de Napa Valley, California, con el titular 'Para el que ya tiene todo' sobre fondo azul marino.",
-      "wine": "Freemark Abbey Cabernet Sauvignon",
-      "sku": "128FMACS",
-      "source_image": "product-images/128FMACS.jpg (foto real POS)"
+      "title": "Uncle Nearest 1884 · regalo con historia",
+      "overlay_text": "EL WHISKEY QUE LLEVA SU NOMBRE\nUncle Nearest 1884 · Tennessee",
+      "caption": "Hay botellas que se regalan por lo que saben. Esta, además, por lo que cuenta.\n\nNathan “Nearest” Green, un hombre esclavizado en Tennessee, dominaba el arte de destilar. Se le reconoce haber enseñado el oficio al joven Jack Daniel y, ya libre, fue su primer maestro destilador: se le considera el primer afroamericano conocido en ese oficio en Estados Unidos. La tradición le atribuye también el filtrado con carbón de arce que hoy distingue al whiskey de Tennessee.\n\nUncle Nearest nació en 2017 para honrarlo. Su 1884 Small Batch es un whiskey de Tennessee de lotes pequeños: miel y azúcar mascabado en nariz; caramelo, canela y madera especiada en boca; final largo y suave.\n\nCómo servirlo: solo o con un hielo grande. Si el fin de semana trae pay de nuez, mejor.\n\nPara quien lo tiene todo: una historia que vale la pena contar.\n\nDisponible en V612 Wine Boutique · La Paz\n\n#V612WineBoutique #MesaLargaV612 #LaPazBCS #UncleNearest #NearestGreen #TennesseeWhiskey #RegalosConHistoria",
+      "alt_text": "Foto de la botella de Uncle Nearest 1884 Small Batch Whiskey con el titular 'Un whiskey con historia' sobre fondo navy.",
+      "wine": "Uncle Nearest 1884 Small Batch Whiskey",
+      "sku": "420UNCLE18",
+      "source_image": "product-images/420UNCLE18.jpg"
     }
   ]
 }
