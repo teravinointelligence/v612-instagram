@@ -51,5 +51,14 @@
       "sticker": "Link → https://wa.me/526241599437",
       "nota": "Guardar en un destacado «Horarios»."
     }
-  ]
+  ],
+  "reel": {
+    "filename": "disenos/reel-ya-abrimos.mp4",
+    "portada": "disenos/reel-portada.jpg",
+    "scheduled_date": "2026-11-12",
+    "duracion_seg": 17.8,
+    "audio": "Sin audio — agregar música desde Instagram al publicar",
+    "caption": "Ya abrimos ✨\n\nAsí se ve por dentro V612 Wine Boutique: un pequeño planeta de vino en el Centro de La Paz, con etiquetas de México y del mundo elegidas una por una.\n\nVen a conocernos y llévate la botella correcta para tu mesa.\n\n📍 Héroes de Independencia esq. Independencia, Centro\n🕙 Lunes a sábado, 10:00 a 20:00\n🗺️ En Google Maps: «V612 Wine Boutique» — link en la bio\n\n#YaAbrimos #V612WineBoutique #LaPazBCS #VinoEnLaPaz #VinoBCS #WineBoutique #BajaCaliforniaSur",
+    "nota": "Generado con bloque5/reel.mjs a partir de 4 clips de la tienda (576×1024, escalados a 1080×1920)."
+  }
 }
