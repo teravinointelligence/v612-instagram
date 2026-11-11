@@ -8,7 +8,9 @@
     "whatsapp": "+52 624 159 9437",
     "google_maps_url": "https://maps.app.goo.gl/4k8pPVzxKNzAEQSe8",
     "fuente": "v612.mx y ficha de Google Maps; horario confirmado por Sabrina (2026-11-11)",
-    "google_maps_ficha": "V612 Wine boutique"
+    "google_maps_ficha": "V612 Wine boutique",
+    "sitio": "https://v612.mx",
+    "pedidos_en_linea": "Se apartan en v612.mx (carrito), se confirman por WhatsApp, se recogen y pagan en tienda; solo mayores de 18 años. Fuente: v612-web (/carrito, /api/order)."
   },
   "posts": [
     {
@@ -16,7 +18,7 @@
       "filename": "disenos/post-02.jpg",
       "scheduled_date": "2026-11-13",
       "type": "ubicacion",
-      "caption": "¿Cómo llegar a V612? 📍\n\nEstamos en la esquina de Héroes de Independencia e Independencia, en pleno Centro de La Paz.\n\nJunto a Cosmos Tostadores de Café, a unas cuadras del Estadio Guaycura.\n\nLa forma más fácil: abre Google Maps, escribe «V612 Wine Boutique» y deja que te traiga. El link directo está en nuestra bio.\n\nGuarda este post para cuando vengas 🍷\n\n🕙 Lunes a sábado, 10:00 a 20:00 · Domingo cerrado\n💬 WhatsApp 624 159 9437\n\n#V612WineBoutique #YaAbrimos #LaPazBCS #CentroLaPaz #VinoEnLaPaz #QuéHacerEnLaPaz #VinoBCS",
+      "caption": "¿Cómo llegar a V612? 📍\n\nEstamos en la esquina de Héroes de Independencia e Independencia, en pleno Centro de La Paz.\n\nJunto a Cosmos Tostadores de Café, a unas cuadras del Estadio Guaycura.\n\nLa forma más fácil: abre Google Maps, escribe «V612 Wine Boutique» y deja que te traiga. El link directo está en nuestra bio.\n\nGuarda este post para cuando vengas 🍷\n\n🕙 Lunes a sábado, 10:00 a 20:00 · Domingo cerrado\n🛒 También puedes apartar tus botellas en v612.mx y pasar por ellas a la tienda.\n💬 WhatsApp 624 159 9437\n\n#V612WineBoutique #YaAbrimos #LaPazBCS #CentroLaPaz #VinoEnLaPaz #QuéHacerEnLaPaz #VinoBCS",
       "carrusel": [
         "disenos/post-02.jpg",
         "disenos/post-mapa.jpg"
@@ -28,7 +30,12 @@
       "filename": "disenos/post-03.jpg",
       "scheduled_date": "2026-11-14",
       "type": "horarios",
-      "caption": "Nuestros horarios 🕙\n\nLunes a sábado: 10:00 a 20:00\nDomingo: cerrado\n\nHoy sábado estamos hasta las 8 de la noche — buen pretexto para pasar por el vino del fin de semana.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🗺️ En Google Maps: «V612 Wine Boutique»\n💬 ¿Dudas o pedidos? WhatsApp 624 159 9437\n\n#V612WineBoutique #YaAbrimos #LaPazBCS #VinoEnLaPaz #FinDeSemana #VinoBCS #WineBoutique"
+      "caption": "Nuestros horarios 🕙\n\nLunes a sábado: 10:00 a 20:00\nDomingo: cerrado\n\nHoy sábado estamos hasta las 8 de la noche — buen pretexto para pasar por el vino del fin de semana.\n\n🛒 ¿Prefieres pedir antes? Elige tus botellas en v612.mx, aparta tu pedido y pasa por él a la tienda; te confirmamos por WhatsApp y pagas al recoger.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🗺️ En Google Maps: «V612 Wine Boutique»\n💬 ¿Dudas o pedidos? WhatsApp 624 159 9437\n\n#V612WineBoutique #YaAbrimos #LaPazBCS #VinoEnLaPaz #FinDeSemana #VinoBCS #WineBoutique",
+      "carrusel": [
+        "disenos/post-03.jpg",
+        "disenos/post-pedidos.jpg"
+      ],
+      "nota": "Publicar como carrusel: primero «Horarios», luego «Pide en v612.mx, recoge en tienda»."
     }
   ],
   "stories": [
@@ -55,6 +62,12 @@
       "scheduled_date": "2026-11-14",
       "sticker": "Link → https://wa.me/526241599437",
       "nota": "Guardar en un destacado «Horarios»."
+    },
+    {
+      "filename": "disenos/story-pedidos.jpg",
+      "scheduled_date": "2026-11-14",
+      "sticker": "Link → https://v612.mx",
+      "nota": "Guardar en un destacado «Pedidos»."
     }
   ],
   "reel": {
@@ -63,7 +76,7 @@
     "scheduled_date": "2026-11-12",
     "duracion_seg": 17.8,
     "audio": "Sin audio — agregar música desde Instagram al publicar",
-    "caption": "Ya abrimos ✨\n\nAsí se ve por dentro V612 Wine Boutique: un pequeño planeta de vino en el Centro de La Paz, con etiquetas de México y del mundo elegidas una por una.\n\nVen a conocernos y llévate la botella correcta para tu mesa.\n\n📍 Héroes de Independencia esq. Independencia, Centro\n🕙 Lunes a sábado, 10:00 a 20:00\n🗺️ En Google Maps: «V612 Wine Boutique» — link en la bio\n\n#YaAbrimos #V612WineBoutique #LaPazBCS #VinoEnLaPaz #VinoBCS #WineBoutique #BajaCaliforniaSur",
+    "caption": "Ya abrimos ✨\n\nAsí se ve por dentro V612 Wine Boutique: un pequeño planeta de vino en el Centro de La Paz, con etiquetas de México y del mundo elegidas una por una.\n\nVen a conocernos y llévate la botella correcta para tu mesa.\n\n📍 Héroes de Independencia esq. Independencia, Centro\n🕙 Lunes a sábado, 10:00 a 20:00\n🛒 También puedes apartar tus botellas en v612.mx y pasar por ellas a la tienda.\n🗺️ En Google Maps: «V612 Wine Boutique» — link en la bio\n\n#YaAbrimos #V612WineBoutique #LaPazBCS #VinoEnLaPaz #VinoBCS #WineBoutique #BajaCaliforniaSur",
     "nota": "Generado con bloque5/reel.mjs a partir de 4 clips de la tienda (576×1024, escalados a 1080×1920).",
     "hieleras_teravino": "Se dejan a cuadro (decisión de Sabrina, 2026-11-11)."
   },
@@ -71,7 +84,7 @@
     {
       "filename": "disenos/post-01.jpg",
       "type": "anuncio",
-      "caption": "Ya abrimos ✨\n\nV612 Wine Boutique ya tiene las puertas abiertas en el Centro de La Paz: un pequeño planeta dedicado al vino, con etiquetas de México y del mundo elegidas una por una.\n\nVen a conocernos, pregunta lo que quieras y llévate la botella correcta para tu mesa.\n\n📍 Héroes de Independencia esq. Independencia, Centro\n🕙 Lunes a sábado, 10:00 a 20:00\n🗺️ Búscanos en Google Maps como «V612 Wine Boutique» — link en la bio\n\n#YaAbrimos #V612WineBoutique #LaPazBCS #VinoEnLaPaz #VinoBCS #WineBoutique #BajaCaliforniaSur",
+      "caption": "Ya abrimos ✨\n\nV612 Wine Boutique ya tiene las puertas abiertas en el Centro de La Paz: un pequeño planeta dedicado al vino, con etiquetas de México y del mundo elegidas una por una.\n\nVen a conocernos, pregunta lo que quieras y llévate la botella correcta para tu mesa.\n\n📍 Héroes de Independencia esq. Independencia, Centro\n🕙 Lunes a sábado, 10:00 a 20:00\n🛒 También puedes apartar tus botellas en v612.mx y pasar por ellas a la tienda.\n🗺️ Búscanos en Google Maps como «V612 Wine Boutique» — link en la bio\n\n#YaAbrimos #V612WineBoutique #LaPazBCS #VinoEnLaPaz #VinoBCS #WineBoutique #BajaCaliforniaSur",
       "nota": "Programado en el publicador (ig_posts 8c37313d) para el miércoles 11 a las 7:00 am Los Cabos, a petición de Sabrina.",
       "scheduled_date": "2026-11-11"
     }
