@@ -31,6 +31,8 @@ node --env-file=.env.local scripts/seed-instagram.mjs \
 
 ## Reglas editoriales
 
+- Diseño: seguir `GUIA-ESTILO.md` (navy + dorado, Cormorant Garamond, sin Bebas)
+
 - **Nunca** usar imágenes de botellas generadas por IA — solo fotos reales del portafolio
 - No repetir marcas entre bloques consecutivos
 - Alternar: post de producto → post educativo/lifestyle
@@ -40,7 +42,7 @@ node --env-file=.env.local scripts/seed-instagram.mjs \
 ## Diseños tipográficos (Bloque 5)
 
 `bloque5/build.mjs` genera los JPG de feed (1080×1350) y stories (1080×1920) con la paleta del logo:
-navy `#1A2954`, dorado `#C9A24C`, marfil `#F4ECD8`; tipografías Cinzel + Cormorant Garamond + Jost.
+navy `#101C45`, dorado `#C9A24C`, marfil `#F4ECD8`; tipografías Cormorant Garamond + Jost (Cinzel solo en el logo).
 
 ```bash
 npm i playwright   # solo si no está instalado
