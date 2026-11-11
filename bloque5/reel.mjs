@@ -16,15 +16,18 @@ const TMP = mkdtempSync(path.join(tmpdir(), 'reel-'));
 const W = 1080, H = 1920;
 
 const star = (s) => `<svg width="${s}" height="${s}" viewBox="-22 -22 44 44"><path fill="#C9A24C" d="M0 -22 L3 -3 L22 0 L3 3 L0 22 L-3 3 L-22 0 L-3 -3Z"/></svg>`;
+// Logo oficial (logo-v612.svg): estrella arriba a la derecha, V612, WINE BOUTIQUE
+const lockup = (px) => `<div class="lock" style="font-size:${px}px"><span class="ls">${star(Math.round(px * 0.5))}</span><span class="ln">V612</span><span class="lw">WINE BOUTIQUE</span></div>`;
 const css = `
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@400;500&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:${W}px;height:${H}px;background:transparent}
 body{color:#F4ECD8;font-family:'Jost',sans-serif;text-align:center;position:relative;overflow:hidden}
-.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,28,61,.78) 0%,rgba(17,28,61,0) 24%,rgba(17,28,61,0) 42%,rgba(17,28,61,.84) 60%,rgba(17,28,61,.95) 100%)}
-.solid{position:absolute;inset:0;background:radial-gradient(90% 70% at 50% 42%,#17265A 0%,#101C45 55%,#0A1230 100%)}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,41,84,.82) 0%,rgba(26,41,84,0) 24%,rgba(26,41,84,0) 42%,rgba(26,41,84,.86) 60%,rgba(26,41,84,.96) 100%)}
+.solid{position:absolute;inset:0;background:radial-gradient(95% 75% at 50% 42%,#1E2F60 0%,#1A2954 55%,#16234A 100%)}
 .c{position:absolute;width:64px;height:64px;border:1.5px solid rgba(201,162,76,.6)}.c.tl{top:72px;left:72px;border-right:0;border-bottom:0}.c.tr{top:72px;right:72px;border-left:0;border-bottom:0}.c.bl{bottom:72px;left:72px;border-right:0;border-top:0}.c.br{bottom:72px;right:72px;border-left:0;border-top:0}
-.top{position:absolute;top:210px;left:0;right:0;color:#C9A24C;display:flex;justify-content:center;align-items:center;gap:16px}
+.top{position:absolute;top:200px;left:0;right:0;color:#C9A24C;display:flex;justify-content:center}
+.lock{display:inline-flex;flex-direction:column;align-items:center;font-family:'Cinzel',serif;line-height:1;color:#C9A24C}.lock .ls{align-self:flex-end;margin:0 calc(-.36em) calc(-.13em) 0;line-height:0}.lock .ln{font-weight:500;letter-spacing:.04em}.lock .lw{font-size:.23em;letter-spacing:.42em;padding-left:.42em;margin-top:.13em}
 .name{font-family:'Cinzel',serif;font-weight:500;font-size:52px;letter-spacing:.06em;line-height:1}
 .sub{font-family:'Cinzel',serif;font-size:19px;letter-spacing:.42em;padding-left:.42em;margin-top:10px}
 .bottom{position:absolute;left:70px;right:70px;bottom:400px}
@@ -37,14 +40,14 @@ body{color:#F4ECD8;font-family:'Jost',sans-serif;text-align:center;position:rela
 .center{position:absolute;inset:44px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:44px;padding:0 60px 120px}
 .chip{font-family:'Cormorant Garamond',serif;font-size:44px}.chip span{font-style:italic}
 `;
-const head = `<div class="top">${star(34)}<div class="name">V612</div></div>`;
+const head = `<div class="top">${lockup(66)}</div>`;
 const overlays = {
   o1: `<div class="shade"></div>${head}<div class="bottom"><div class="eyebrow">La Paz · BCS</div><div class="big" style="font-size:128px;margin-top:26px">La espera terminó.<i>Ya abrimos.</i></div></div>`,
   o2: `<div class="shade"></div>${head}<div class="bottom"><div class="it">Vinos de México y del mundo,<i>elegidos uno por uno.</i></div></div>`,
   o3: `<div class="shade"></div>${head}<div class="bottom"><div class="it">Un pequeño planeta de vino<i>en el Centro de La Paz.</i></div></div>`,
   o4: `<div class="shade"></div>${head}<div class="bottom"><div class="eyebrow">La casa · Horario</div><div class="big" style="font-size:104px;margin-top:26px">Lunes a sábado<i>10:00 — 20:00</i></div></div>`,
   end: `<div class="solid"></div><i class="c tl"></i><i class="c tr"></i><i class="c bl"></i><i class="c br"></i><div class="center">
-    <div style="color:#C9A24C;display:flex;align-items:center;gap:20px">${star(44)}<div class="name" style="font-size:72px">V612</div></div>
+    ${lockup(120)}
     <div class="big" style="font-size:112px">Ven a<i>conocernos.</i></div>
     <div class="info">Héroes de Independencia esq. Independencia<br>Centro · La Paz, BCS<b>Lunes a sábado · 10:00 — 20:00</b></div>
     <div class="chip">Google Maps · <span class="gold">V612 Wine Boutique</span></div></div>`,

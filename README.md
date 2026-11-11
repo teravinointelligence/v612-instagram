@@ -42,7 +42,7 @@ node --env-file=.env.local scripts/seed-instagram.mjs \
 ## Diseños tipográficos (Bloque 5)
 
 `bloque5/build.mjs` genera los JPG de feed (1080×1350) y stories (1080×1920) con la paleta del logo:
-navy `#101C45`, dorado `#C9A24C`, marfil `#F4ECD8`; tipografías Cormorant Garamond + Jost (Cinzel solo en el logo).
+navy `#1A2954`, dorado `#C9A24C`, marfil `#F4ECD8`; tipografías Cormorant Garamond + Jost (Cinzel solo en el logo).
 
 ```bash
 npm i playwright   # solo si no está instalado

@@ -27,18 +27,18 @@ Problemas concretos encontrados:
 
 | Uso | Valor |
 |---|---|
-| Fondo | Navy `#101C45` (degradado de `#17265A` al centro a `#0A1230` en bordes) |
+| Fondo | Navy corporativo `#1A2954` (el del logo; viñeta muy sutil permitida) |
 | Acento | Dorado `#C9A24C` |
 | Texto | Marfil `#F4ECD8` |
 | Fichas de botella | Crema `#F8F3E6` con texto navy |
 
-Sin negro puro, sin otros colores de acento.
+Son los colores del logo. Sin negro puro, sin navy más oscuro que el corporativo, sin otros colores de acento.
 
 **Tipografía**
 
 - Titulares: Cormorant Garamond 500, mayúsculas y minúsculas, con punto final. La segunda línea va en cursiva dorada («La espera también / *se cata.*»).
 - Etiquetas y pies: Jost 500 en mayúsculas espaciadas, tamaño pequeño, en dorado o marfil atenuado.
-- Logo: «✦ V612» en Cinzel dorado. No usar Bebas Neue ni titulares en mayúsculas gruesas.
+- Logo: siempre el oficial completo — estrella arriba a la derecha, «V612» y «WINE BOUTIQUE» en Cinzel dorado. No abreviarlo a «✦ V612». No usar Bebas Neue ni titulares en mayúsculas gruesas.
 
 **Composición**
 

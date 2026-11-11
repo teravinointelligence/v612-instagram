@@ -53,14 +53,17 @@ const css = (w, h) => `
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@400;500&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:${w}px;height:${h}px}
-body{background:radial-gradient(90% 70% at 50% 42%,#17265A 0%,#101C45 55%,#0A1230 100%);color:#F4ECD8;font-family:'Cormorant Garamond',serif;position:relative;overflow:hidden}
+body{background:radial-gradient(95% 75% at 50% 42%,#1E2F60 0%,#1A2954 55%,#16234A 100%);color:#F4ECD8;font-family:'Cormorant Garamond',serif;position:relative;overflow:hidden}
 .c{position:absolute;width:64px;height:64px;border:1.5px solid rgba(201,162,76,.6)}
 .c.tl{top:72px;left:72px;border-right:0;border-bottom:0}.c.tr{top:72px;right:72px;border-left:0;border-bottom:0}
 .c.bl{bottom:72px;left:72px;border-right:0;border-top:0}.c.br{bottom:72px;right:72px;border-left:0;border-top:0}
 .wrap{position:absolute;inset:72px;display:flex;flex-direction:column;padding:78px 84px 70px}
 .wrap.mid{align-items:center;text-align:center}
-.lock{display:flex;align-items:center;gap:16px;color:#C9A24C;font-family:'Cinzel',serif;font-weight:500;font-size:44px;letter-spacing:.06em;line-height:1}
-.lock svg{margin-top:-4px}
+.wrap.mid .lock{align-self:center}
+.lock{align-self:flex-start;display:inline-flex;flex-direction:column;align-items:center;color:#C9A24C;font-family:'Cinzel',serif;line-height:1}
+.lock .ls{align-self:flex-end;margin:0 -22px -8px 0;line-height:0}
+.lock .ln{font-weight:500;font-size:62px;letter-spacing:.04em}
+.lock .lw{font-size:14px;letter-spacing:.42em;padding-left:.42em;margin-top:8px}
 .eyebrow{font-family:'Jost',sans-serif;font-weight:500;font-size:21px;letter-spacing:.34em;text-transform:uppercase;color:#C9A24C}
 .h{font-weight:500;line-height:1.04;letter-spacing:-.005em}
 .h i{font-weight:400;color:#C9A24C;display:block}
@@ -79,7 +82,8 @@ body{background:radial-gradient(90% 70% at 50% 42%,#17265A 0%,#101C45 55%,#0A123
 .foot b{color:#C9A24C;font-weight:500}
 `;
 
-const lock = `<div class="lock">${star(30, false)}<span>V612</span></div>`;
+// Logo oficial: estrella arriba a la derecha, V612 y WINE BOUTIQUE (logo-v612.svg)
+const lock = `<div class="lock"><span class="ls">${star(30)}</span><span class="ln">V612</span><span class="lw">WINE BOUTIQUE</span></div>`;
 const rule = `<div class="rule"><i></i>${star(20, false)}<i></i></div>`;
 const corners = `<i class="c tl"></i><i class="c tr"></i><i class="c bl"></i><i class="c br"></i>`;
 
