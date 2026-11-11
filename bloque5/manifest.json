@@ -65,5 +65,5 @@
       "nota": "No se publica en feed: el jueves 12 va el Reel. Queda como respaldo o portada de carrusel."
     }
   ],
-  "seed": "node --env-file=.env.local scripts/seed-instagram.mjs --manifest=PATH/bloque5/manifest.json --start-date=2026-11-13 --hour=7  (solo siembra posts[]; el Reel y las stories van aparte)"
+  "seed": "No se siembra: este bloque se publica a mano desde la app de Instagram (decisión de Sabrina, 2026-11-11)."
 }
