@@ -4,6 +4,7 @@ import { createRequire } from 'node:module';
 const { chromium } = createRequire(import.meta.url)('playwright'); // global en el entorno; en local: npm i playwright
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { readFileSync } from 'node:fs';
 
 const OUT = path.join(path.dirname(fileURLToPath(import.meta.url)), 'disenos');
 
@@ -133,10 +134,24 @@ const horario = (big, top, bottom) => `
     <div class="grow"></div>
     <div class="foot">${T.calle} ${T.esquina}<br><b>WhatsApp ${T.wa}</b></div><div style="height:${bottom}px"></div>`;
 
+// Mapa de calles (generado con mapa.py a partir de OpenStreetMap)
+const MAPA = readFileSync(path.join(path.dirname(fileURLToPath(import.meta.url)), 'mapa-centro.svg'), 'utf8');
+const mapa = (big, top, bottom, cue) => `
+    <div style="height:${top}px"></div>${lock}
+    <div style="height:${top ? 80 : 44}px"></div>
+    <div class="eyebrow">La casa · Mapa</div>
+    <div class="h" style="font-size:${big}px;margin-top:24px">Estamos aquí,<i>en el Centro de La Paz.</i></div>
+    <div class="grow"></div>
+    <div style="margin:0 -24px;width:calc(100% + 48px);line-height:0">${MAPA.replace('width="936" height="720"', 'width="100%"')}</div>
+    <div class="grow"></div>
+    ${cue ? `<div class="foot" style="text-align:center">${T.calle} ${T.esquina}<br><b>Toca para abrir en Google Maps ▾</b></div><div style="height:${bottom}px"></div>` : `<div class="foot">${T.calle} ${T.esquina}<br><b>Google Maps · ${T.maps}</b></div>`}`;
+
 const designs = {
   'post-01': page(...P, 'mid', abrimos(112, 0, 0)),
   'post-02': page(...P, '', ubicacion(108, 0, 0, false)),
   'post-03': page(...P, '', horario(100, 0, 0)),
+  'post-mapa': page(...P, '', mapa(76, 0, 0, false)),
+  'story-mapa': page(...S, '', mapa(92, 130, 250, true)),
   // Stories: margen superior e inferior libres para la interfaz y stickers
   'story-01': page(...S, 'mid', abrimos(118, 130, 190)),
   'story-02': page(...S, '', ubicacion(112, 130, 150, true)),
