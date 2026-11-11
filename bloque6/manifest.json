@@ -1,0 +1,37 @@
+{
+  "bloque": 6,
+  "tema": "La historia del nombre — por qué V612",
+  "schedule": "PROPUESTA, sin programar: mar 17 y jue 19 de noviembre de 2026 · 7am Los Cabos",
+  "fuente": "Texto de v612.mx/nosotros, capítulo «El nombre» (La B se volvió V). Cita del inicio del sitio.",
+  "estilo": "Ver GUIA-ESTILO.md; plantilla en lib/estilo.mjs",
+  "posts": [
+    {
+      "publish_order": 1,
+      "scheduled_date": "2026-11-17",
+      "type": "carrusel",
+      "filename": "disenos/nombre-01.jpg",
+      "carrusel": [
+        "disenos/nombre-01.jpg",
+        "disenos/nombre-02.jpg",
+        "disenos/nombre-03.jpg",
+        "disenos/nombre-04.jpg"
+      ],
+      "caption": "¿Por qué nos llamamos V612? ✨\n\nEl Principito vivía en B-612, un asteroide que un astrónomo turco miró por su telescopio en 1909 y nadie más volvió a ver.\n\nCuando buscamos nombre quisimos un planeta parecido: pequeño, habitable por pocos, nombrado con rigor por un número.\n\nCambiamos la B por una V —de vino, de vid, de vista al mar— y el asteroide encontró inquilinos.\n\nDesliza para leer la historia →\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🛒 v612.mx\n\n#V612WineBoutique #ElPrincipito #B612 #LaPazBCS #VinoEnLaPaz #VinoBCS #WineBoutique"
+    },
+    {
+      "publish_order": 2,
+      "scheduled_date": "2026-11-19",
+      "type": "cita",
+      "filename": "disenos/cita-esencial.jpg",
+      "caption": "«Lo esencial es invisible a los ojos.»\n— Antoine de Saint-Exupéry, El Principito\n\nPor eso aquí no te vendemos un vino: te regalamos una conversación con alguien que lo hizo lejos, hace tiempo, con paciencia.\n\nVen a platicar. Lunes a sábado, 10:00 a 20:00.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🛒 v612.mx\n\n#V612WineBoutique #ElPrincipito #LaPazBCS #VinoEnLaPaz #VinoBCS #WineBoutique #CulturaVino"
+    }
+  ],
+  "stories": [
+    {
+      "filename": "disenos/story-nombre.jpg",
+      "scheduled_date": "2026-11-17",
+      "sticker": "Compartir el carrusel a stories o usar esta pieza con sticker de link al post",
+      "nota": "Guardar en un destacado «Nosotros»."
+    }
+  ]
+}

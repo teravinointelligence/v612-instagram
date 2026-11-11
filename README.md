@@ -12,7 +12,8 @@ Cada bloque cubre ~12 publicaciones (2 semanas) con un tema editorial.
 | Bloque 2 | Jul 22–Ago 2, 2026 | Cuaderno de Cata |
 | Bloque 3 | Ago 3–14, 2026 | Maridaje BCS |
 | Bloque 4 | Sep 1–29, 2026 | Mes de la Patria + Vendimia VdG |
-| Bloque 5 | Nov 12–14, 2026 | Ya abrimos (ubicación, horarios) |
+| Bloque 5 | Nov 11–14, 2026 | Ya abrimos (ubicación, horarios, pedidos) |
+| Bloque 6 | Nov 17–19, 2026 (propuesta) | La historia del nombre |
 
 ## Cómo seedear un bloque
 
@@ -50,3 +51,5 @@ node bloque5/build.mjs   # escribe bloque5/disenos/*.jpg (ignorados por git)
 ```
 
 Los datos de tienda (dirección, horario, WhatsApp) están en la constante `T` del script.
+
+A partir del Bloque 6 los diseños usan la plantilla común `lib/estilo.mjs` (`node bloque6/build.mjs`).
