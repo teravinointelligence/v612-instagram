@@ -22,7 +22,7 @@ const css = `
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@400;500&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:${W}px;height:${H}px;background:transparent}
-body{color:#F4ECD8;font-family:'Jost',sans-serif;text-align:center;position:relative;overflow:hidden}
+body{color:#F4ECD8;font-family:'Jost',sans-serif;font-variant-numeric:lining-nums;text-align:center;position:relative;overflow:hidden}
 .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,41,84,.82) 0%,rgba(26,41,84,0) 24%,rgba(26,41,84,0) 42%,rgba(26,41,84,.86) 60%,rgba(26,41,84,.96) 100%)}
 .solid{position:absolute;inset:0;background:radial-gradient(95% 75% at 50% 42%,#1E2F60 0%,#1A2954 55%,#16234A 100%)}
 .c{position:absolute;width:64px;height:64px;border:1.5px solid rgba(201,162,76,.6)}.c.tl{top:72px;left:72px;border-right:0;border-bottom:0}.c.tr{top:72px;right:72px;border-left:0;border-bottom:0}.c.bl{bottom:72px;left:72px;border-right:0;border-top:0}.c.br{bottom:72px;right:72px;border-left:0;border-top:0}

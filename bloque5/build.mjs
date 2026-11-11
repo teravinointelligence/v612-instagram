@@ -54,7 +54,7 @@ const css = (w, h) => `
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@400;500&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:${w}px;height:${h}px}
-body{background:radial-gradient(95% 75% at 50% 42%,#1E2F60 0%,#1A2954 55%,#16234A 100%);color:#F4ECD8;font-family:'Cormorant Garamond',serif;position:relative;overflow:hidden}
+body{background:radial-gradient(95% 75% at 50% 42%,#1E2F60 0%,#1A2954 55%,#16234A 100%);color:#F4ECD8;font-family:'Cormorant Garamond',serif;font-variant-numeric:lining-nums;position:relative;overflow:hidden}
 .c{position:absolute;width:64px;height:64px;border:1.5px solid rgba(201,162,76,.6)}
 .c.tl{top:72px;left:72px;border-right:0;border-bottom:0}.c.tr{top:72px;right:72px;border-left:0;border-bottom:0}
 .c.bl{bottom:72px;left:72px;border-right:0;border-top:0}.c.br{bottom:72px;right:72px;border-left:0;border-top:0}
@@ -146,12 +146,33 @@ const mapa = (big, top, bottom, cue) => `
     <div class="grow"></div>
     ${cue ? `<div class="foot" style="text-align:center">${T.calle} ${T.esquina}<br><b>Toca para abrir en Google Maps ▾</b></div><div style="height:${bottom}px"></div>` : `<div class="foot">${T.calle} ${T.esquina}<br><b>Google Maps · ${T.maps}</b></div>`}`;
 
+// Pedidos en línea: se apartan en v612.mx, se confirman por WhatsApp y se pagan al recoger
+// (flujo real del sitio: v612-web /carrito y /api/order).
+const pedidos = (big, top, bottom, cue) => `
+    <div style="height:${top}px"></div>${lock}
+    <div style="height:${top ? 110 : 70}px"></div>
+    <div class="eyebrow">La casa · Pedidos en línea</div>
+    <div class="h" style="font-size:${big}px;margin-top:28px">Pide en v612.mx,<i>recoge en tienda.</i></div>
+    <div class="grow"></div>
+    <div class="tbl">
+      ${[['01', 'Elige tus botellas en <b style="color:#C9A24C;font-weight:500">v612.mx</b>'],
+         ['02', 'Aparta tu pedido desde el carrito'],
+         ['03', 'Te confirmamos por WhatsApp'],
+         ['04', 'Pasa por él y paga en tienda']]
+        .map(([n, t]) => `<div class="tr" style="justify-content:flex-start;gap:38px"><span class="g" style="font-size:44px;min-width:62px">${n}</span><span class="v" style="text-align:left">${t}</span></div>`).join('')}
+    </div>
+    <div class="grow"></div>
+    ${cue ? `<div class="foot" style="text-align:center">Venta solo a mayores de 18 años<br><b>Toca para abrir v612.mx ▾</b></div><div style="height:${bottom}px"></div>`
+          : `<div class="foot">Venta solo a mayores de 18 años<br><b>v612.mx</b></div>`}`;
+
 const designs = {
   'post-01': page(...P, 'mid', abrimos(112, 0, 0)),
   'post-02': page(...P, '', ubicacion(108, 0, 0, false)),
   'post-03': page(...P, '', horario(100, 0, 0)),
   'post-mapa': page(...P, '', mapa(76, 0, 0, false)),
   'story-mapa': page(...S, '', mapa(92, 130, 250, true)),
+  'post-pedidos': page(...P, '', pedidos(92, 0, 0, false)),
+  'story-pedidos': page(...S, '', pedidos(100, 130, 250, true)),
   // Stories: margen superior e inferior libres para la interfaz y stickers
   'story-01': page(...S, 'mid', abrimos(118, 130, 190)),
   'story-02': page(...S, '', ubicacion(112, 130, 150, true)),
