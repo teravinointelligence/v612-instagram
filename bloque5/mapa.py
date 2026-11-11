@@ -11,11 +11,14 @@ ESC = (W / 2) / RADIO
 DESPL = 140                              # metros que el encuadre se corre al este para incluir el estadio
 REFERENCIAS = {'Estadio Guaycura': 'ESTADIO GUAYCURA'}   # polígonos con etiqueta
 FONDO = {'Estadio Arturo C. Nahl'}       # polígonos vecinos, sin etiqueta
+# Negocio contiguo (ficha de Google Maps, plus code 5M5R+2R: a ~20 m de la tienda). Va como nota
+# pegada al pin porque a esta escala los dos puntos se enciman.
+VECINO = ('JUNTO A', 'COSMOS TOSTADORES DE CAFÉ')
+VX, VY, VW, VH = -4, 74, 292, 58        # centro de la nota respecto al pin, y su tamaño
 MAIN = {'Calle Héroes de Independencia': 'HÉROES DE INDEPENDENCIA', 'Calle Independencia': 'INDEPENDENCIA'}
 REFS = {'Avenida 5 de Mayo': '5 DE MAYO', 'Calle Reforma': 'REFORMA', 'Calle Constitución': 'CONSTITUCIÓN',
         'Calle Josefa Ortiz de Domínguez': 'JOSEFA ORTIZ',
-        'Calle Ignacio Manuel Altamirano': 'ALTAMIRANO', 'Calle 16 de Septiembre': '16 DE SEPTIEMBRE',
-        'Calle Licenciado Primo Verdad': 'PRIMO VERDAD'}
+        'Calle Ignacio Manuel Altamirano': 'ALTAMIRANO', 'Calle 16 de Septiembre': '16 DE SEPTIEMBRE'}
 
 root = ET.parse(sys.argv[1]).getroot()
 nodes = {n.get('id'): (float(n.get('lat')), float(n.get('lon'))) for n in root.findall('node')}
@@ -66,6 +69,7 @@ def etiqueta(name, texto, color, dmin, dmax):
     return ''
 
 for _, x, y, t in refs: puestas.append((x, y, 80))
+for dx in (-90, 0, 90): puestas.append((PX + VX + dx, PY + VY, 70))
 labels = [etiqueta(n, t, '#C9A24C', 90, 300) for n, t in MAIN.items()] + \
          [etiqueta(n, t, 'rgba(244,236,216,.62)', 110, 520) for n, t in REFS.items()]
 P = lambda ds, st: ''.join(f'<path d="{d}" {st}/>' for d in ds)
@@ -84,6 +88,9 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{
 </g>
 {''.join(labels)}
 {''.join(f'<text x="{x:.1f}" y="{y:.1f}" text-anchor="middle" font-family="Jost,sans-serif" font-weight="500" font-size="14" letter-spacing="2.5" fill="#C9A24C"><tspan x="{x:.1f}" dy="-4">{t.split()[0]}</tspan><tspan x="{x:.1f}" dy="19">{" ".join(t.split()[1:])}</tspan></text>' for _, x, y, t in refs)}
+<g transform="translate({cx + VX} {cy + VY})"><line x1="{-VX}" y1="{-VY + 30}" x2="{-VX}" y2="{-VH / 2}" stroke="#C9A24C" stroke-width="1.5"/>
+<rect x="{-VW / 2}" y="{-VH / 2}" width="{VW}" height="{VH}" rx="4" fill="#1A2954" stroke="rgba(201,162,76,.75)" stroke-width="1.5"/>
+<text text-anchor="middle" font-family="Jost,sans-serif" font-weight="500" letter-spacing="2.5"><tspan x="0" y="-7" font-size="11" fill="rgba(244,236,216,.7)">{VECINO[0]}</tspan><tspan x="0" y="14" font-size="14" fill="#C9A24C">{VECINO[1]}</tspan></text></g>
 <g transform="translate({cx} {cy})"><circle r="30" fill="#1A2954" stroke="#C9A24C" stroke-width="1.5"/>
 <path fill="#C9A24C" d="M0 -22 L3 -3 L22 0 L3 3 L0 22 L-3 3 L-22 0 L-3 -3Z"/></g>
 <g transform="translate({W - 46} 50)" fill="#C9A24C"><path d="M0 -22 L7 6 L0 0 L-7 6Z"/>
