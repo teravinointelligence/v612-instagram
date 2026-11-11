@@ -13,7 +13,7 @@ Cada bloque cubre ~12 publicaciones (2 semanas) con un tema editorial.
 | Bloque 3 | Ago 3–14, 2026 | Maridaje BCS |
 | Bloque 4 | Sep 1–29, 2026 | Mes de la Patria + Vendimia VdG |
 | Bloque 5 | Nov 11–14, 2026 | Ya abrimos (ubicación, horarios, pedidos) |
-| Bloque 6 | Nov 17–19, 2026 (propuesta) | La historia del nombre |
+| Bloque 6 | Nov 17–19, 2026 | La historia del nombre |
 
 ## Cómo seedear un bloque
 
