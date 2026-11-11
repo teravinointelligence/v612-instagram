@@ -50,154 +50,97 @@ function sky(w, h, n, seed) {
 const pin = `<svg width="40" height="52" viewBox="0 0 40 52"><path d="M20 1C9.5 1 1 9.4 1 19.8 1 33.5 20 51 20 51s19-17.500 19-31.200C39 9.400 30.500 1 20 1z" fill="none" stroke="#C9A24C" stroke-width="2"/><circle cx="20" cy="20" r="6.500" fill="#C9A24C"/></svg>`;
 
 const css = (w, h) => `
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@400;500&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:${w}px;height:${h}px}
-body{background:radial-gradient(120% 80% at 50% 0%,#24376D 0%,#1A2954 45%,#111C3D 100%);color:#F4ECD8;font-family:'Jost',sans-serif;position:relative;overflow:hidden}
-.sky{position:absolute;inset:0}
-.frame{position:absolute;inset:44px;border:1.5px solid rgba(201,162,76,.55)}
-.frame:after{content:'';position:absolute;inset:10px;border:1px solid rgba(201,162,76,.22)}
-.wrap{position:absolute;inset:44px;display:flex;flex-direction:column;align-items:center;text-align:center;padding:70px 70px 64px}
-.logo{display:flex;flex-direction:column;align-items:center;color:#C9A24C}
-.logo-star{align-self:flex-end;margin-right:calc(-34px*var(--s));margin-bottom:calc(-14px*var(--s));line-height:0}
-.logo-name{font-family:'Cinzel',serif;font-weight:500;font-size:calc(104px*var(--s));letter-spacing:.04em;line-height:1}
-.logo-sub{font-family:'Cinzel',serif;font-size:calc(23px*var(--s));letter-spacing:.42em;margin-top:calc(12px*var(--s));padding-left:.42em}
-.eyebrow{font-size:26px;letter-spacing:.42em;text-transform:uppercase;color:#C9A24C;padding-left:.42em}
-.big{font-family:'Cinzel',serif;font-weight:500;color:#F4ECD8;line-height:.98;letter-spacing:.03em}
-.gold{color:#C9A24C}
-.it{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:52px;color:#F4ECD8;line-height:1.15}
-.rule{display:flex;align-items:center;gap:22px;width:100%;justify-content:center}
-.rule i{height:1px;width:170px;background:linear-gradient(90deg,transparent,#C9A24C)}
-.rule i:last-child{transform:scaleX(-1)}
+body{background:radial-gradient(95% 75% at 50% 42%,#1E2F60 0%,#1A2954 55%,#16234A 100%);color:#F4ECD8;font-family:'Cormorant Garamond',serif;position:relative;overflow:hidden}
+.c{position:absolute;width:64px;height:64px;border:1.5px solid rgba(201,162,76,.6)}
+.c.tl{top:72px;left:72px;border-right:0;border-bottom:0}.c.tr{top:72px;right:72px;border-left:0;border-bottom:0}
+.c.bl{bottom:72px;left:72px;border-right:0;border-top:0}.c.br{bottom:72px;right:72px;border-left:0;border-top:0}
+.wrap{position:absolute;inset:72px;display:flex;flex-direction:column;padding:78px 84px 70px}
+.wrap.mid{align-items:center;text-align:center}
+.wrap.mid .lock{align-self:center}
+.lock{align-self:flex-start;display:inline-flex;flex-direction:column;align-items:center;color:#C9A24C;font-family:'Cinzel',serif;line-height:1}
+.lock .ls{align-self:flex-end;margin:0 -22px -8px 0;line-height:0}
+.lock .ln{font-weight:500;font-size:62px;letter-spacing:.04em}
+.lock .lw{font-size:14px;letter-spacing:.42em;padding-left:.42em;margin-top:8px}
+.eyebrow{font-family:'Jost',sans-serif;font-weight:500;font-size:21px;letter-spacing:.34em;text-transform:uppercase;color:#C9A24C}
+.h{font-weight:500;line-height:1.04;letter-spacing:-.005em}
+.h i{font-weight:400;color:#C9A24C;display:block}
+.sub{font-style:italic;font-size:44px;color:#C9A24C;line-height:1.2}
+.p{font-size:42px;line-height:1.3;color:rgba(244,236,216,.92)}
+.rule{display:flex;align-items:center;gap:20px}.rule i{height:1px;width:96px;background:rgba(201,162,76,.6)}
 .grow{flex:1}
-.info{font-size:31px;letter-spacing:.06em;line-height:1.5;font-weight:300}
-.info b{font-weight:500;color:#C9A24C;letter-spacing:.14em;text-transform:uppercase;font-size:25px}
-.foot{font-size:25px;letter-spacing:.3em;color:rgba(244,236,216,.75);text-transform:uppercase;padding-left:.3em}
-.card{border:1px solid rgba(201,162,76,.5);background:rgba(17,28,61,.55);padding:38px 54px;width:100%}
-.row{display:flex;justify-content:space-between;align-items:baseline;padding:20px 0;font-size:40px}
-.row+.row{border-top:1px solid rgba(201,162,76,.28)}
-.row span:first-child{font-family:'Cormorant Garamond',serif;font-size:50px}
-.row span:last-child{font-family:'Cinzel',serif;color:#C9A24C;letter-spacing:.05em}
-.row.off span:last-child{color:rgba(244,236,216,.6);font-size:32px;letter-spacing:.2em}
-.chip{display:inline-flex;align-items:center;gap:16px;border:1.5px solid #C9A24C;border-radius:60px;padding:16px 38px;font-size:29px;letter-spacing:.08em}
-.chip b{color:#C9A24C;font-weight:500}
-.sticker{width:560px;height:120px;border:2px dashed rgba(201,162,76,.0)}
-.map{position:relative;width:100%;height:330px}
+.tbl{width:100%}
+.tr{display:flex;justify-content:space-between;align-items:baseline;gap:30px;padding:30px 0;border-bottom:1px solid rgba(201,162,76,.28)}
+.tr:first-child{border-top:1px solid rgba(201,162,76,.28)}
+.tr .k{font-family:'Jost',sans-serif;font-weight:500;font-size:19px;letter-spacing:.3em;text-transform:uppercase;color:#C9A24C;white-space:nowrap}
+.tr .v{font-size:44px;text-align:right;line-height:1.15}
+.tr .n{font-size:50px}.tr .g{font-size:50px;color:#C9A24C;font-style:italic}
+.tr .off{font-family:'Jost',sans-serif;font-size:21px;letter-spacing:.3em;color:rgba(244,236,216,.6)}
+.foot{font-family:'Jost',sans-serif;font-weight:500;font-size:19px;letter-spacing:.3em;text-transform:uppercase;color:rgba(244,236,216,.7);line-height:1.9}
+.foot b{color:#C9A24C;font-weight:500}
 `;
 
-const rule = `<div class="rule"><i></i>${star(30, false)}<i></i></div>`;
+// Logo oficial: estrella arriba a la derecha, V612 y WINE BOUTIQUE (logo-v612.svg)
+const lock = `<div class="lock"><span class="ls">${star(30)}</span><span class="ln">V612</span><span class="lw">WINE BOUTIQUE</span></div>`;
+const rule = `<div class="rule"><i></i>${star(20, false)}<i></i></div>`;
+const corners = `<i class="c tl"></i><i class="c tr"></i><i class="c bl"></i><i class="c br"></i>`;
 
-// Croquis esquemático del cruce (sin orientación ni esquina exacta)
-const corner = (w, h) => `
-<svg class="map" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}">
-  <g stroke="rgba(244,236,216,.28)" stroke-width="34" stroke-linecap="round">
-    <line x1="40" y1="${h * 0.62}" x2="${w - 40}" y2="${h * 0.62}"/>
-    <line x1="${w * 0.5}" y1="20" x2="${w * 0.5}" y2="${h - 10}"/>
-  </g>
-  <g stroke="rgba(201,162,76,.5)" stroke-width="1.5" stroke-dasharray="10 12">
-    <line x1="40" y1="${h * 0.62}" x2="${w - 40}" y2="${h * 0.62}"/>
-    <line x1="${w * 0.5}" y1="20" x2="${w * 0.5}" y2="${h - 10}"/>
-  </g>
-  <text x="56" y="${h * 0.62 + 62}" font-family="Jost" font-size="23" letter-spacing="4" fill="rgba(244,236,216,.8)">HÉROES DE INDEPENDENCIA</text>
-  <text x="${w * 0.5 + 38}" y="44" font-family="Jost" font-size="23" letter-spacing="4" fill="rgba(244,236,216,.8)">INDEPENDENCIA</text>
-  <g transform="translate(${w * 0.5} ${h * 0.62})">
-    <circle r="44" fill="#1A2954" stroke="#C9A24C" stroke-width="1.5"/>
-    <path fill="#C9A24C" transform="scale(1.25)" d="M0 -22 L3 -3 L22 0 L3 3 L0 22 L-3 3 L-22 0 L-3 -3Z"/>
-  </g>
-</svg>`;
-
-const page = (w, h, seed, body) =>
-  `<!doctype html><html><head><meta charset="utf-8"><style>${css(w, h)}</style></head><body>${sky(w, h, Math.round((w * h) / 16000), seed)}<div class="frame"></div><div class="wrap">${body}</div></body></html>`;
+const page = (w, h, cls, body) =>
+  `<!doctype html><html><head><meta charset="utf-8"><style>${css(w, h)}</style></head><body>${corners}<div class="wrap ${cls}">${body}</div></body></html>`;
 
 const P = [1080, 1350], S = [1080, 1920];
+const footDir = `<div class="foot">${T.calle} ${T.esquina}<br><b>${T.dias} · ${T.horas}</b></div>`;
 
-const designs = {
-  // ── FEED 4:5 ─────────────────────────────────────────────
-  'post-01': page(...P, 7, `
-    ${logo(0.8)}
+const abrimos = (big, top, bottom) => `
+    <div style="height:${top}px"></div>${lock}
     <div class="grow"></div>
     <div class="eyebrow">La Paz · Baja California Sur</div>
-    <div class="big" style="font-size:176px;margin-top:34px">YA<br><span class="gold">ABRIMOS</span></div>
-    <div style="height:44px"></div>${rule}<div style="height:36px"></div>
-    <div class="it">Un pequeño planeta de vino<br>en el Centro de La Paz</div>
+    <div class="h" style="font-size:${big}px;margin-top:40px">La espera terminó.<i>Ya abrimos.</i></div>
+    <div style="height:50px"></div>${rule}<div style="height:44px"></div>
+    <div class="p">Un pequeño planeta de vino<br>en el Centro de La Paz.</div>
     <div class="grow"></div>
-    <div class="info">${T.calle} ${T.esquina}<br><b>${T.dias} · ${T.horas}</b></div>`),
+    ${footDir}<div style="height:${bottom}px"></div>`;
 
-  'post-02': page(...P, 23, `
-    ${logo(0.5)}
-    <div style="height:50px"></div>
-    <div class="eyebrow">Cómo llegar</div>
-    <div class="big" style="font-size:92px;margin-top:26px">ENCUÉNTRANOS</div>
-    <div style="height:30px"></div>
-    ${corner(860, 330)}
-    <div style="height:26px"></div>
-    <div class="it" style="font-size:54px">${T.calle}<br>${T.esquina}</div>
-    <div class="info" style="margin-top:14px">${T.colonia}</div>
+const ubicacion = (big, top, bottom, cue) => `
+    <div style="height:${top}px"></div>${lock}
+    <div style="height:${top ? 110 : 84}px"></div>
+    <div class="eyebrow">La casa · Cómo llegar</div>
+    <div class="h" style="font-size:${big}px;margin-top:30px">Encuéntranos<i>en el Centro.</i></div>
     <div class="grow"></div>
-    <div class="chip">${pin.replace('width="40" height="52"', 'width="26" height="34"')}<span>Búscanos en Google Maps: <b>${T.maps}</b></span></div>`),
+    <div class="tbl">
+      <div class="tr"><span class="k">Calle</span><span class="v">${T.calle}</span></div>
+      <div class="tr"><span class="k">Esquina</span><span class="v">Independencia</span></div>
+      <div class="tr"><span class="k">Ciudad</span><span class="v">La Paz, Baja California Sur</span></div>
+      <div class="tr"><span class="k">Google Maps</span><span class="v" style="color:#C9A24C;font-style:italic">${T.maps}</span></div>
+    </div>
+    <div class="grow"></div>
+    ${cue ? `<div class="foot" style="text-align:center">Toca para abrir en Google Maps<br><b style="font-size:30px;letter-spacing:0">▾</b></div><div style="height:${bottom}px"></div>` : `<div class="foot">${T.dias} · ${T.horas}<br><b>${T.ig}</b></div>`}`;
 
-  'post-03': page(...P, 41, `
-    ${logo(0.5)}
+const horario = (big, top, bottom) => `
+    <div style="height:${top}px"></div>${lock}
+    <div style="height:${top ? 110 : 84}px"></div>
+    <div class="eyebrow">La casa · Horario</div>
+    <div class="h" style="font-size:${big}px;margin-top:30px">Te esperamos<i>de lunes a sábado.</i></div>
+    <div class="grow"></div>
+    <div class="tbl">
+      <div class="tr"><span class="n">Lunes a sábado</span><span class="g">10:00 — 20:00</span></div>
+      <div class="tr"><span class="n">Domingo</span><span class="off">CERRADO</span></div>
+    </div>
     <div style="height:54px"></div>
-    <div class="eyebrow">Te esperamos</div>
-    <div class="big" style="font-size:118px;margin-top:26px"><span class="gold">HORARIOS</span></div>
-    <div style="height:46px"></div>
-    <div class="card">
-      <div class="row"><span>${T.dias}</span><span>${T.horas}</span></div>
-      <div class="row off"><span>Domingo</span><span>CERRADO</span></div>
-    </div>
-    <div style="height:44px"></div>${rule}<div style="height:34px"></div>
-    <div class="it" style="font-size:46px">Pasa a conocernos, pregunta lo que quieras<br>y llévate la botella correcta.</div>
+    <div class="p" style="font-style:italic">Pasa a conocernos, pregunta lo que quieras<br>y llévate la botella correcta.</div>
     <div class="grow"></div>
-    <div class="info">${T.calle} ${T.esquina} · Centro<br><b>WhatsApp ${T.wa}</b></div>`),
+    <div class="foot">${T.calle} ${T.esquina}<br><b>WhatsApp ${T.wa}</b></div><div style="height:${bottom}px"></div>`;
 
-  // ── STORIES 9:16 (zona central-baja libre para sticker de link/ubicación) ──
-  'story-01': page(...S, 11, `
-    <div style="height:150px"></div>
-    ${logo(0.95)}
-    <div style="height:150px"></div>
-    <div class="eyebrow">La Paz · BCS</div>
-    <div class="big" style="font-size:186px;margin-top:40px">YA<br><span class="gold">ABRIMOS</span></div>
-    <div style="height:56px"></div>${rule}<div style="height:44px"></div>
-    <div class="it" style="font-size:58px">Un pequeño planeta de vino<br>en el Centro de La Paz</div>
-    <div class="grow"></div>
-    <div class="info" style="font-size:34px">${T.calle} ${T.esquina}<br><b style="font-size:28px">${T.dias} · ${T.horas}</b></div>
-    <div style="height:170px"></div>`),
-
-  'story-02': page(...S, 29, `
-    <div style="height:150px"></div>
-    ${logo(0.55)}
-    <div style="height:90px"></div>
-    <div class="eyebrow">Cómo llegar</div>
-    <div class="big" style="font-size:92px;margin-top:30px">ENCUÉNTRANOS</div>
-    <div style="height:60px"></div>
-    ${corner(860, 330)}
-    <div style="height:50px"></div>
-    <div class="it" style="font-size:60px">${T.calle}<br>${T.esquina}</div>
-    <div class="info" style="margin-top:18px;font-size:34px">${T.colonia}</div>
-    <div style="height:70px"></div>
-    <div class="eyebrow" style="font-size:24px">Toca para abrir en Google Maps</div>
-    <div style="margin-top:14px;color:#C9A24C;font-size:40px">▾</div>
-    <div class="grow"></div>
-    <div class="foot">${T.ig}</div>
-    <div style="height:150px"></div>`),
-
-  'story-03': page(...S, 53, `
-    <div style="height:150px"></div>
-    ${logo(0.55)}
-    <div style="height:110px"></div>
-    <div class="eyebrow">Te esperamos</div>
-    <div class="big" style="font-size:124px;margin-top:30px"><span class="gold">HORARIOS</span></div>
-    <div style="height:70px"></div>
-    <div class="card">
-      <div class="row"><span>${T.dias}</span><span>${T.horas}</span></div>
-      <div class="row off"><span>Domingo</span><span>CERRADO</span></div>
-    </div>
-    <div style="height:70px"></div>${rule}<div style="height:50px"></div>
-    <div class="it" style="font-size:54px">Pasa a conocernos<br>y llévate la botella correcta.</div>
-    <div class="grow"></div>
-    <div class="info" style="font-size:34px">${T.calle} ${T.esquina}<br><b style="font-size:28px">WhatsApp ${T.wa}</b></div>
-    <div style="height:170px"></div>`),
+const designs = {
+  'post-01': page(...P, 'mid', abrimos(112, 0, 0)),
+  'post-02': page(...P, '', ubicacion(108, 0, 0, false)),
+  'post-03': page(...P, '', horario(100, 0, 0)),
+  // Stories: margen superior e inferior libres para la interfaz y stickers
+  'story-01': page(...S, 'mid', abrimos(118, 130, 190)),
+  'story-02': page(...S, '', ubicacion(112, 130, 150, true)),
+  'story-03': page(...S, '', horario(104, 130, 190)),
 };
 
 const browser = await chromium.launch();

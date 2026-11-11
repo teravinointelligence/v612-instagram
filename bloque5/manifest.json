@@ -1,7 +1,7 @@
 {
   "bloque": 5,
   "tema": "Ya abrimos — apertura V612 Wine Boutique La Paz",
-  "schedule": "Jue: Reel · Vie/Sáb: feed · 7am Los Cabos · story el mismo día",
+  "schedule": "Mié: post «Ya abrimos» (publicador) · Jue: Reel · Vie/Sáb: feed · 7am Los Cabos · story el mismo día",
   "tienda": {
     "direccion": "Héroes de Independencia esq. Independencia, Centro, La Paz, BCS 23000",
     "horario": "Lunes a Sábado 10:00–20:00 · Domingo cerrado",
@@ -53,8 +53,7 @@
     "duracion_seg": 17.8,
     "audio": "Sin audio — agregar música desde Instagram al publicar",
     "caption": "Ya abrimos ✨\n\nAsí se ve por dentro V612 Wine Boutique: un pequeño planeta de vino en el Centro de La Paz, con etiquetas de México y del mundo elegidas una por una.\n\nVen a conocernos y llévate la botella correcta para tu mesa.\n\n📍 Héroes de Independencia esq. Independencia, Centro\n🕙 Lunes a sábado, 10:00 a 20:00\n🗺️ En Google Maps: «V612 Wine Boutique» — link en la bio\n\n#YaAbrimos #V612WineBoutique #LaPazBCS #VinoEnLaPaz #VinoBCS #WineBoutique #BajaCaliforniaSur",
-    "nota": "Generado con bloque5/reel.mjs a partir de 4 clips de la tienda (576×1024, escalados a 1080×1920). La versión «ligero» (<4.5 MB) es para subir por el panel /admin/instagram.",
-    "filename_panel": "disenos/reel-ya-abrimos-ligero.mp4",
+    "nota": "Generado con bloque5/reel.mjs a partir de 4 clips de la tienda (576×1024, escalados a 1080×1920).",
     "hieleras_teravino": "Se dejan a cuadro (decisión de Sabrina, 2026-11-11)."
   },
   "opcional": [
@@ -62,8 +61,10 @@
       "filename": "disenos/post-01.jpg",
       "type": "anuncio",
       "caption": "Ya abrimos ✨\n\nV612 Wine Boutique ya tiene las puertas abiertas en el Centro de La Paz: un pequeño planeta dedicado al vino, con etiquetas de México y del mundo elegidas una por una.\n\nVen a conocernos, pregunta lo que quieras y llévate la botella correcta para tu mesa.\n\n📍 Héroes de Independencia esq. Independencia, Centro\n🕙 Lunes a sábado, 10:00 a 20:00\n🗺️ Búscanos en Google Maps como «V612 Wine Boutique» — link en la bio\n\n#YaAbrimos #V612WineBoutique #LaPazBCS #VinoEnLaPaz #VinoBCS #WineBoutique #BajaCaliforniaSur",
-      "nota": "No se publica en feed: el jueves 12 va el Reel. Queda como respaldo o portada de carrusel."
+      "nota": "Programado en el publicador (ig_posts 8c37313d) para el miércoles 11 a las 7:00 am Los Cabos, a petición de Sabrina.",
+      "scheduled_date": "2026-11-11"
     }
   ],
-  "seed": "No se siembra: este bloque se publica a mano desde la app de Instagram (decisión de Sabrina, 2026-11-11)."
+  "seed": "No se siembra: este bloque se publica a mano desde la app de Instagram (decisión de Sabrina, 2026-11-11).",
+  "estilo": "Ver GUIA-ESTILO.md"
 }
