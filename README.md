@@ -11,6 +11,8 @@ Cada bloque cubre ~12 publicaciones (2 semanas) con un tema editorial.
 | Bloque 1 | Jul 7–19, 2026 | — |
 | Bloque 2 | Jul 22–Ago 2, 2026 | Cuaderno de Cata |
 | Bloque 3 | Ago 3–14, 2026 | Maridaje BCS |
+| Bloque 4 | Sep 1–29, 2026 | Mes de la Patria + Vendimia VdG |
+| Bloque 5 | Nov 12–14, 2026 | Ya abrimos (ubicación, horarios) |
 
 ## Cómo seedear un bloque
 
@@ -34,3 +36,15 @@ node --env-file=.env.local scripts/seed-instagram.mjs \
 - Alternar: post de producto → post educativo/lifestyle
 - Publicar 7am Los Cabos (14:00 UTC)
 - Hashtags: siempre incluir `#V612WineBoutique` y `#MaridajeBCS` (o el tema del bloque)
+
+## Diseños tipográficos (Bloque 5)
+
+`bloque5/build.mjs` genera los JPG de feed (1080×1350) y stories (1080×1920) con la paleta del logo:
+navy `#1A2954`, dorado `#C9A24C`, marfil `#F4ECD8`; tipografías Cinzel + Cormorant Garamond + Jost.
+
+```bash
+npm i playwright   # solo si no está instalado
+node bloque5/build.mjs   # escribe bloque5/disenos/*.jpg (ignorados por git)
+```
+
+Los datos de tienda (dirección, horario, WhatsApp) están en la constante `T` del script.
