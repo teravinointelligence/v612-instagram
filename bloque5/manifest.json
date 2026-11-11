@@ -1,0 +1,55 @@
+{
+  "bloque": 5,
+  "tema": "Ya abrimos — apertura V612 Wine Boutique La Paz",
+  "schedule": "Jue/Vie/Sáb · 7am Los Cabos · feed + story el mismo día",
+  "tienda": {
+    "direccion": "Héroes de Independencia esq. Independencia, Centro, La Paz, BCS 23000",
+    "horario": "Lunes a Sábado 10:00–20:00 · Domingo cerrado",
+    "whatsapp": "+52 624 159 9437",
+    "google_maps_url": "PENDIENTE — pegar el link de compartir de la ficha de Google Maps",
+    "fuente": "v612.mx (consultado 2026-11-11)"
+  },
+  "posts": [
+    {
+      "publish_order": 1,
+      "filename": "disenos/post-01.jpg",
+      "scheduled_date": "2026-11-12",
+      "type": "anuncio",
+      "caption": "Ya abrimos ✨\n\nV612 Wine Boutique ya tiene las puertas abiertas en el Centro de La Paz: un pequeño planeta dedicado al vino, con etiquetas de México y del mundo elegidas una por una.\n\nVen a conocernos, pregunta lo que quieras y llévate la botella correcta para tu mesa.\n\n📍 Héroes de Independencia esq. Independencia, Centro\n🕙 Lunes a sábado, 10:00 a 20:00\n🗺️ Búscanos en Google Maps como «V612 Wine Boutique» — link en la bio\n\n#YaAbrimos #V612WineBoutique #LaPazBCS #VinoEnLaPaz #VinoBCS #WineBoutique #BajaCaliforniaSur"
+    },
+    {
+      "publish_order": 2,
+      "filename": "disenos/post-02.jpg",
+      "scheduled_date": "2026-11-13",
+      "type": "ubicacion",
+      "caption": "¿Cómo llegar a V612? 📍\n\nEstamos en la esquina de Héroes de Independencia e Independencia, en pleno Centro de La Paz.\n\nLa forma más fácil: abre Google Maps, escribe «V612 Wine Boutique» y deja que te traiga. El link directo está en nuestra bio.\n\nGuarda este post para cuando vengas 🍷\n\n🕙 Lunes a sábado, 10:00 a 20:00 · Domingo cerrado\n💬 WhatsApp 624 159 9437\n\n#V612WineBoutique #YaAbrimos #LaPazBCS #CentroLaPaz #VinoEnLaPaz #QuéHacerEnLaPaz #VinoBCS"
+    },
+    {
+      "publish_order": 3,
+      "filename": "disenos/post-03.jpg",
+      "scheduled_date": "2026-11-14",
+      "type": "horarios",
+      "caption": "Nuestros horarios 🕙\n\nLunes a sábado: 10:00 a 20:00\nDomingo: cerrado\n\nHoy sábado estamos hasta las 8 de la noche — buen pretexto para pasar por el vino del fin de semana.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🗺️ En Google Maps: «V612 Wine Boutique»\n💬 ¿Dudas o pedidos? WhatsApp 624 159 9437\n\n#V612WineBoutique #YaAbrimos #LaPazBCS #VinoEnLaPaz #FinDeSemana #VinoBCS #WineBoutique"
+    }
+  ],
+  "stories": [
+    {
+      "filename": "disenos/story-01.jpg",
+      "scheduled_date": "2026-11-12",
+      "sticker": "Ubicación: V612 Wine Boutique",
+      "nota": "Compartir también el post 1 a stories."
+    },
+    {
+      "filename": "disenos/story-02.jpg",
+      "scheduled_date": "2026-11-13",
+      "sticker": "Link → google_maps_url, colocado bajo la flecha «Toca para abrir en Google Maps»",
+      "nota": "Guardar en un destacado «Ubicación»."
+    },
+    {
+      "filename": "disenos/story-03.jpg",
+      "scheduled_date": "2026-11-14",
+      "sticker": "Link → https://wa.me/526241599437",
+      "nota": "Guardar en un destacado «Horarios»."
+    }
+  ]
+}
