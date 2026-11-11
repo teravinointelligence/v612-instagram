@@ -6,8 +6,9 @@
     "direccion": "Héroes de Independencia esq. Independencia, Centro, La Paz, BCS 23000",
     "horario": "Lunes a Sábado 10:00–20:00 · Domingo cerrado",
     "whatsapp": "+52 624 159 9437",
-    "google_maps_url": "PENDIENTE — pegar el link de compartir de la ficha de Google Maps",
-    "fuente": "v612.mx (consultado 2026-11-11)"
+    "google_maps_url": "https://maps.app.goo.gl/4k8pPVzxKNzAEQSe8",
+    "fuente": "v612.mx (consultado 2026-11-11)",
+    "google_maps_ficha": "V612 Wine boutique"
   },
   "posts": [
     {
@@ -42,7 +43,7 @@
     {
       "filename": "disenos/story-02.jpg",
       "scheduled_date": "2026-11-13",
-      "sticker": "Link → google_maps_url, colocado bajo la flecha «Toca para abrir en Google Maps»",
+      "sticker": "Link → https://maps.app.goo.gl/4k8pPVzxKNzAEQSe8, colocado bajo la flecha «Toca para abrir en Google Maps»",
       "nota": "Guardar en un destacado «Ubicación»."
     },
     {
