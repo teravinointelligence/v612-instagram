@@ -1,0 +1,67 @@
+{
+  "bloque": 7,
+  "tema": "Regala vino — posadas y regalos corporativos",
+  "schedule": "Programado en el publicador: 21, 24, 26 y 28 de noviembre y 1 de diciembre de 2026 · 7am Los Cabos",
+  "fuente": "Servicios según v612.mx/contacto: regalos y canastas con tarjeta escrita a mano sin costo; regalos corporativos y mayoreo por hola@v612.mx; pedidos para recoger en la boutique.",
+  "estilo": "Ver GUIA-ESTILO.md; plantilla en lib/estilo.mjs",
+  "posts": [
+    {
+      "publish_order": 1,
+      "scheduled_date": "2026-11-21",
+      "type": "post",
+      "filename": "disenos/posadas-01.jpg",
+      "caption": "Ya vienen las posadas ✨\n\nEste año, llega con una botella bien elegida: para el intercambio, para quien recibe en casa, para brindar con tu equipo.\n\nEn V612 te ayudamos a escoger y la envolvemos con tarjeta escrita a mano.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Lunes a sábado, 10:00 a 20:00\n🛒 v612.mx\n\n#V612WineBoutique #RegalaVino #Posadas #LaPazBCS #VinoEnLaPaz #VinoBCS #RegalosDeNavidad",
+      "ig_post_id": "ac6bf393-6708-4627-b2a5-3d80ed504689"
+    },
+    {
+      "publish_order": 2,
+      "scheduled_date": "2026-11-24",
+      "type": "carrusel",
+      "filename": "disenos/corp-01.jpg",
+      "caption": "Regalos corporativos para estas posadas 🎁\n\nSi tu empresa va a regalar este diciembre, que sea algo que se abra en una mesa y se comparta.\n\nCómo funciona:\n01 · Escríbenos a hola@v612.mx\n02 · Dinos cuántos regalos necesitas y tu presupuesto\n03 · Te proponemos la selección\n04 · Los recoges listos en la boutique\n\nCada regalo puede llevar tarjeta escrita a mano, sin costo.\n\n✉️ hola@v612.mx\n💬 WhatsApp 624 159 9437\n\n#RegalosCorporativos #RegalosEmpresariales #V612WineBoutique #RegalaVino #Posadas #LaPazBCS #VinoEnLaPaz #VinoBCS",
+      "ig_post_id": "f7e49e16-c1fb-4a0d-956e-4e851692494b",
+      "carrusel": [
+        "disenos/corp-01.jpg",
+        "disenos/corp-02.jpg",
+        "disenos/corp-03.jpg",
+        "disenos/corp-04.jpg"
+      ]
+    },
+    {
+      "publish_order": 3,
+      "scheduled_date": "2026-11-26",
+      "type": "post",
+      "filename": "disenos/guia-regalo.jpg",
+      "caption": "¿Qué vino regalar? Una guía rápida 🍷\n\n✦ Para el intercambio: un tinto amable, que le guste a casi todos.\n✦ Para quien recibe en casa: un espumoso para brindar.\n✦ Para un cliente o tu jefe: una botella con historia que contar.\n✦ Si no sabes qué le gusta: un rosado seco rara vez falla.\n\nY si quieres afinar, pregúntanos en la boutique: para eso estamos.\n\nGuarda este post para tus compras de diciembre.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Lunes a sábado, 10:00 a 20:00\n\n#TipsDeVino #CulturaVino #V612WineBoutique #RegalaVino #Posadas #LaPazBCS #VinoEnLaPaz #VinoBCS",
+      "ig_post_id": "a17cfdf5-adaa-43b2-8c8e-12db4dd8ecda"
+    },
+    {
+      "publish_order": 4,
+      "scheduled_date": "2026-11-28",
+      "type": "post",
+      "filename": "disenos/canastas.jpg",
+      "caption": "Armamos tu regalo 🎁\n\nElige las botellas o déjanos proponerlas. Preparamos regalos y canastas, y la tarjeta escrita a mano va por nuestra cuenta.\n\nPara encargos, escríbenos por WhatsApp al 624 159 9437 o pasa a la boutique.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Lunes a sábado, 10:00 a 20:00\n🛒 v612.mx\n\n#CanastasDeRegalo #RegalosDeNavidad #V612WineBoutique #RegalaVino #Posadas #LaPazBCS #VinoEnLaPaz #VinoBCS",
+      "ig_post_id": "883daa78-5afa-40e6-b23a-4a8234ac0b86"
+    },
+    {
+      "publish_order": 5,
+      "scheduled_date": "2026-12-01",
+      "type": "post",
+      "filename": "disenos/con-tiempo.jpg",
+      "caption": "Diciembre llega rápido ✨\n\nSi vas a regalar vino en las posadas —a tu equipo, a tus clientes o a tu familia—, pídelo con tiempo y recógelo listo para entregar.\n\n✉️ Empresas: hola@v612.mx\n💬 Encargos: WhatsApp 624 159 9437\n🛒 v612.mx\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Lunes a sábado, 10:00 a 20:00\n\n#RegalosCorporativos #RegalosDeNavidad #V612WineBoutique #RegalaVino #Posadas #LaPazBCS #VinoEnLaPaz #VinoBCS",
+      "ig_post_id": "b906f1a7-c8de-40c6-894e-68f00ec787e5"
+    }
+  ],
+  "stories": [
+    {
+      "filename": "disenos/story-posadas.jpg",
+      "scheduled_date": "2026-11-21",
+      "sticker": "Link → https://wa.me/526241599437"
+    },
+    {
+      "filename": "disenos/story-corp.jpg",
+      "scheduled_date": "2026-11-24",
+      "sticker": "Link → mailto:hola@v612.mx o https://v612.mx/contacto"
+    }
+  ]
+}
