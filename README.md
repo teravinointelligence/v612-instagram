@@ -15,6 +15,7 @@ Cada bloque cubre ~12 publicaciones (2 semanas) con un tema editorial.
 | Bloque 5 | Nov 11–14, 2026 | Ya abrimos (ubicación, horarios, pedidos) |
 | Bloque 6 | Nov 17–19, 2026 | La historia del nombre |
 | Bloque 7 | Nov 21–Dic 1, 2026 | Regala vino: posadas y regalos corporativos |
+| Bloque 8 | Dic 5–12, 2026 | Contando historias: Gómez Cruzado |
 
 ## Cómo seedear un bloque
 
