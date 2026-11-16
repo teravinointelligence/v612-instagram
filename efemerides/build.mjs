@@ -1,6 +1,7 @@
 // Efemérides del vino. Día del Beaujolais: tercer jueves de noviembre (19 nov 2026).
 // Botella: «3e Fleuve» Fleurie La Levrattière 2020 — Daniel & Denise (Joseph Viola) × Trenel
-// (M. Chapoutier). SKU FLEURIE del catálogo; foto real en efemerides/fotos/FLEURIE.jpg.
+// (M. Chapoutier). SKU FLEURIE del catálogo. Imagen y notas: ficha técnica oficial del productor
+// («3_Fleuve_-_FT_La_Levrattiere.pdf», en el Drive de TERAVINO) → efemerides/fotos/FLEURIE-oficial.png.
 // Uso: node efemerides/build.mjs → efemerides/disenos/*.jpg
 import { fileURLToPath } from 'node:url';
 import { readFileSync } from 'node:fs';
@@ -9,7 +10,7 @@ import { P, S, TIENDA, lock, lockCrema, rule, page, pageCrema, render } from '..
 
 const DIR = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(DIR, 'disenos');
-const foto = `data:image/jpeg;base64,${readFileSync(path.join(DIR, 'fotos/FLEURIE.jpg')).toString('base64')}`;
+const foto = `data:image/png;base64,${readFileSync(path.join(DIR, 'fotos/FLEURIE-oficial.png')).toString('base64')}`;
 const pie = (izq, der) => `<div class="foot"><span>${izq}</span><b>${der}</b></div>`;
 
 const portada = (size, top = 0, bottom = 0, cierre = 'Desliza →') => page(size, 'mid', `
@@ -27,15 +28,15 @@ const ficha = pageCrema(P, '', `
     <div style="height:40px"></div>
     <div class="eyebrow">Botella del día · Cru du Beaujolais</div>
     <div style="display:flex;gap:30px;align-items:center;flex:1;margin-top:10px">
-      <img class="botella" src="${foto}" style="height:760px;margin-left:-130px;margin-right:-120px">
+      <img src="${foto}" style="height:800px;margin:0 20px 0 6px;filter:drop-shadow(0 18px 22px rgba(26,41,84,.22))">
       <div style="flex:1">
         <div class="h" style="font-size:66px;white-space:nowrap">Fleurie<i>La Levrattière</i></div>
         <div class="q" style="margin-top:16px;font-size:30px">3e Fleuve · 2020<br>Daniel &amp; Denise × Trenel</div>
         <div style="height:28px"></div>${rule}<div style="height:26px"></div>
-        <div class="p" style="font-size:34px">Gamay de uno de los diez crus de Beaujolais: floral, de fruta roja y trago largo.</div>
+        <div class="p" style="font-size:33px">Gamay de suelos de granito. Cereza, mora, iris y peonía; un toque ahumado y taninos finos.</div>
         <div style="height:30px"></div>
         <div class="eyebrow" style="font-size:18px">Maridaje</div>
-        <div class="q" style="font-size:30px;margin-top:10px">Charcutería, pollo rostizado, atún sellado. Mejor un poco fresco.</div>
+        <div class="q" style="font-size:30px;margin-top:10px">Joseph Viola lo propone con fricasé de pollo a la lionesa. Sírvelo a 15 °C.</div>
       </div>
     </div>
     ${pie('En boutique · pocas botellas', '02 / 03')}`);
