@@ -1,0 +1,76 @@
+{
+  "bloque": 8,
+  "tema": "Contando historias: Gómez Cruzado — Viña Dorana, Pancrudo y Honorable",
+  "schedule": "Programado en el publicador: 5, 8, 10 y 12 de diciembre de 2026 · 7am Los Cabos",
+  "fuentes": [
+    "Fichas V612 de cada vino (Drive: Ficha_V612_Gomez_Cruzado_Vina_Dorana / Pancrudo / Honorable)",
+    "gomezcruzado.com: historia y páginas de producto",
+    "Folleto «Gómez Cruzado y sus vinos» (Drive)"
+  ],
+  "imagenes": "Packshots oficiales de gomezcruzado.com en bloque8/fotos/ (la etiqueta de Viña Dorana muestra añada 2017)",
+  "existencias_al_16_nov": {
+    "Viña Dorana": 4,
+    "Honorable": 6,
+    "Pancrudo": 0
+  },
+  "nota": "Pancrudo sin existencia en V612 al armar la serie: se anuncia «bajo pedido». No se mencionan añadas ni puntuaciones.",
+  "estilo": "Ver GUIA-ESTILO.md; plantilla en lib/estilo.mjs",
+  "posts": [
+    {
+      "publish_order": 1,
+      "scheduled_date": "2026-12-05",
+      "type": "carrusel",
+      "filename": "disenos/gc-bodega-01.jpg",
+      "carrusel": [
+        "disenos/gc-bodega-01.jpg",
+        "disenos/gc-bodega-02.jpg",
+        "disenos/gc-bodega-03.jpg"
+      ],
+      "caption": "Contando historias: Gómez Cruzado 🍷\n\nHaro, 1886. El ferrocarril acababa de llegar y alrededor de la estación nacieron las bodegas que escribieron la historia del Rioja. Ahí fundó la suya Ángel Gómez de Arteche.\n\nEn 1916 la compraron Agustín y Jesús Gómez Cruzado, que le dieron su nombre. Hoy la lleva la familia Baños, originaria de Badarán, y sigue siendo la más pequeña del Barrio de la Estación.\n\nEsta semana te contamos tres de sus vinos: Viña Dorana, Pancrudo y Honorable.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Lunes a sábado, 10:00 a 20:00\n🛒 v612.mx\n\n#ContandoHistorias #GómezCruzado #Rioja #Haro #VinoEspañol #V612WineBoutique #LaPazBCS #VinoEnLaPaz",
+      "ig_post_id": "e3b78403-0ac4-4738-b9de-0781a27160ec"
+    },
+    {
+      "publish_order": 2,
+      "scheduled_date": "2026-12-08",
+      "type": "carrusel",
+      "filename": "disenos/gc-dorana-01.jpg",
+      "carrusel": [
+        "disenos/gc-dorana-01.jpg",
+        "disenos/gc-dorana-02.jpg"
+      ],
+      "caption": "Viña Dorana · el Reserva de Gómez Cruzado\n\nViñas viejas del triángulo Cordovín, Badarán y Cárdenas, en el Alto Najerilla, entre 600 y 710 metros y sobre arcillas rojas ferrosas.\n\n60% Tempranillo y 40% Garnacha. Veinticuatro meses en barrica francesa usada y al menos doce más en botella: un Rioja clásico, con la frescura que da la Garnacha de altura.\n\nPara cordero al horno, rib eye a la parrilla o una birria tatemada. Sírvelo entre 16 y 18 °C.\n\nLo tenemos en la boutique.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Lunes a sábado, 10:00 a 20:00\n🛒 v612.mx\n\n#ViñaDorana #RiojaReserva #GómezCruzado #Rioja #Haro #VinoEspañol #V612WineBoutique #LaPazBCS #VinoEnLaPaz",
+      "ig_post_id": "2de01b00-e5f7-49e1-8cb3-ae9175aa24ff"
+    },
+    {
+      "publish_order": 3,
+      "scheduled_date": "2026-12-10",
+      "type": "carrusel",
+      "filename": "disenos/gc-pancrudo-01.jpg",
+      "carrusel": [
+        "disenos/gc-pancrudo-01.jpg",
+        "disenos/gc-pancrudo-02.jpg"
+      ],
+      "caption": "Pancrudo · la Garnacha del límite\n\n100% Garnacha de viñas viejas en vaso, en Badarán: 650 metros, cara norte y laderas de arcilla roja, en el límite de cultivo de Rioja Alta.\n\nFrambuesa silvestre, notas florales y un fondo mineral y salino. Jugosa, de buena acidez y final largo.\n\nVa con tostadas de atún, pescado zarandeado o tacos de lechón. Sírvelo entre 15 y 17 °C, en copa Borgoña.\n\nEs un vino de producción pequeña y lo manejamos bajo pedido: escríbenos por WhatsApp al 624 159 9437.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Lunes a sábado, 10:00 a 20:00\n🛒 v612.mx\n\n#Pancrudo #Garnacha #GómezCruzado #Rioja #Haro #VinoEspañol #V612WineBoutique #LaPazBCS #VinoEnLaPaz",
+      "ig_post_id": "f7f057a2-d207-49b2-a13a-66c83702a836"
+    },
+    {
+      "publish_order": 4,
+      "scheduled_date": "2026-12-12",
+      "type": "carrusel",
+      "filename": "disenos/gc-honorable-01.jpg",
+      "carrusel": [
+        "disenos/gc-honorable-01.jpg",
+        "disenos/gc-honorable-02.jpg"
+      ],
+      "caption": "Honorable · el gran vino de la casa\n\nUn ensamble de pueblos de la Sonsierra, de Lanciego a Labastida: viñas de más de 50 años sobre calizas pobres, al pie de la Sierra Cantabria.\n\nCada pueblo se fermenta en su propio depósito y después el vino pasa unos 18 meses en roble. Mayoritariamente Tempranillo, con Garnacha y Graciano.\n\nCereza negra, zarzamora y cuero; estructurado, de taninos firmes y final largo. Pide cordero asado, chuletón madurado o un mole negro con pato. Decántalo y sírvelo entre 16 y 18 °C.\n\nLo tenemos en la boutique: una botella para regalar bien en diciembre.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Lunes a sábado, 10:00 a 20:00\n🛒 v612.mx\n\n#Honorable #RegalaVino #GómezCruzado #Rioja #Haro #VinoEspañol #V612WineBoutique #LaPazBCS #VinoEnLaPaz",
+      "ig_post_id": "56dbf741-99b8-42fc-a6aa-a9140adb1c34"
+    }
+  ],
+  "stories": [
+    {
+      "filename": "disenos/story-gc.jpg",
+      "scheduled_date": "2026-12-05",
+      "sticker": "Compartir el carrusel a stories o usar esta pieza"
+    }
+  ]
+}
