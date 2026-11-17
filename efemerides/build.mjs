@@ -55,9 +55,22 @@ const tabla = page(P, '', `
     <div class="grow"></div>
     ${pie(TIENDA.ig, '03 / 03')}`);
 
+// Story del día anterior (mié 18 nov): aviso. El hueco bajo el texto es para el sticker de cuenta regresiva.
+const manana = page(S, 'mid', `
+    <div style="height:130px"></div>${lock}
+    <div class="grow"></div>
+    <div class="eyebrow">Jueves 19 de noviembre</div>
+    <div class="h" style="font-size:132px;margin-top:40px">Mañana es día<i>del Beaujolais.</i></div>
+    <div style="height:54px"></div>${rule}<div style="height:46px"></div>
+    <div class="p">Tenemos un cru de Fleurie<br>esperando la ocasión.</div>
+    <div style="height:300px"></div>
+    <div class="grow"></div>
+    <div class="foot" style="justify-content:center"><b>Mañana 7:00 · en el feed</b></div><div style="height:250px"></div>`);
+
 await render({
   'beaujolais-01': [P, portada(P)],
   'beaujolais-02': [P, ficha],
   'beaujolais-03': [P, tabla],
   'story-beaujolais': [S, portada(S, 130, 250, 'Nuevo post · Día del Beaujolais')],
+  'story-beaujolais-manana': [S, manana],
 }, OUT);
