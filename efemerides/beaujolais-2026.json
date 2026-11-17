@@ -8,6 +8,13 @@
     "disenos/beaujolais-03.jpg"
   ],
   "story": "disenos/story-beaujolais.jpg",
+  "story_previa": {
+    "filename": "disenos/story-beaujolais-manana.jpg",
+    "scheduled_date": "2026-11-18",
+    "publicacion": "Manual desde la app de Instagram",
+    "sticker": "Cuenta regresiva «Día del Beaujolais» que termina el jueves 19 a las 7:00, en el hueco navy bajo el texto",
+    "nota": "Antes de subirla, confirmar que sigue habiendo Fleurie en tienda; si no, quitar la mención."
+  },
   "botella": {
     "sku": "FLEURIE",
     "nombre": "3e Fleuve Fleurie La Levrattière 2020 — Daniel & Denise (Joseph Viola) × Trenel (M. Chapoutier)",
