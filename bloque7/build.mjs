@@ -47,12 +47,27 @@ const lamina = (eyebrow, titular, texto, pieHtml, tam = 100) => page(P, '', `
 
 const gold = (t) => `<b style="color:#C9A24C;font-weight:500">${t}</b>`;
 
+// Story de adelanto (vie 20 nov, manual): el hueco bajo el texto es para el sticker de pregunta.
+const adelanto = page(S, 'mid', `
+    <div style="height:130px"></div>${lock}
+    <div class="grow"></div>
+    <div class="eyebrow">Temporada de posadas</div>
+    <div class="h" style="font-size:132px;margin-top:40px">Ya vienen<i>las posadas.</i></div>
+    <div style="height:54px"></div>${rule}<div style="height:46px"></div>
+    <div class="p">Mañana te contamos cómo<br>regalar vino este diciembre.</div>
+    <div style="height:300px"></div>
+    <div class="grow"></div>
+    <div class="foot" style="justify-content:center"><b>Mañana 7:00 · en el feed</b></div><div style="height:250px"></div>`);
+
 await render({
+  // 0 · Adelanto en story, el día anterior
+  'story-posadas-adelanto': [S, adelanto],
+
   // 1 · Apertura de la serie
   'posadas-01': [P, portada(P, 'Temporada de posadas', 'En las posadas,<i>regala vino.</i>',
-    'Una botella bien elegida<br>dice más que cualquier tarjeta.', TIENDA.direccion)],
+    'Una botella bien elegida,<br>envuelta y con tarjeta a mano.', TIENDA.direccion)],
   'story-posadas': [S, portada(S, 'Temporada de posadas', 'En las posadas,<i>regala vino.</i>',
-    'Una botella bien elegida<br>dice más que cualquier tarjeta.', 'Toca para escribirnos ▾', 130, 250)],
+    'Una botella bien elegida,<br>envuelta y con tarjeta a mano.', 'Toca para escribirnos ▾', 130, 250)],
 
   // 2 · Carrusel de regalos corporativos
   'corp-01': [P, portada(P, 'Regalos corporativos', 'Para tu equipo<i>y tus clientes.</i>',

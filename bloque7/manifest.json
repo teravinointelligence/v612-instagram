@@ -54,6 +54,13 @@
   ],
   "stories": [
     {
+      "filename": "disenos/story-posadas-adelanto.jpg",
+      "scheduled_date": "2026-11-20",
+      "publicacion": "Manual desde la app de Instagram",
+      "sticker": "Pregunta «¿Para quién buscas regalo este año?» en el hueco navy bajo el texto",
+      "nota": "Adelanto del post de apertura del 21 de noviembre. Las respuestas del sticker sirven para dar seguimiento por DM."
+    },
+    {
       "filename": "disenos/story-posadas.jpg",
       "scheduled_date": "2026-11-21",
       "sticker": "Link → https://wa.me/526241599437"
