@@ -50,9 +50,9 @@ const gold = (t) => `<b style="color:#C9A24C;font-weight:500">${t}</b>`;
 await render({
   // 1 · Apertura de la serie
   'posadas-01': [P, portada(P, 'Temporada de posadas', 'En las posadas,<i>regala vino.</i>',
-    'Una botella bien elegida<br>dice más que cualquier tarjeta.', TIENDA.direccion)],
+    'Una botella bien elegida,<br>envuelta y con tarjeta a mano.', TIENDA.direccion)],
   'story-posadas': [S, portada(S, 'Temporada de posadas', 'En las posadas,<i>regala vino.</i>',
-    'Una botella bien elegida<br>dice más que cualquier tarjeta.', 'Toca para escribirnos ▾', 130, 250)],
+    'Una botella bien elegida,<br>envuelta y con tarjeta a mano.', 'Toca para escribirnos ▾', 130, 250)],
 
   // 2 · Carrusel de regalos corporativos
   'corp-01': [P, portada(P, 'Regalos corporativos', 'Para tu equipo<i>y tus clientes.</i>',
