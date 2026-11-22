@@ -47,6 +47,18 @@ const lamina = (eyebrow, titular, texto, pieHtml, tam = 100) => page(P, '', `
 
 const gold = (t) => `<b style="color:#C9A24C;font-weight:500">${t}</b>`;
 
+// Story con hueco navy bajo el texto para un sticker (link, encuesta…), como en efemerides/build.mjs
+const storySticker = (eyebrow, titular, texto, hueco, cierre) => page(S, 'mid', `
+    <div style="height:130px"></div>${lock}
+    <div class="grow"></div>
+    <div class="eyebrow">${eyebrow}</div>
+    <div class="h" style="font-size:124px;margin-top:40px">${titular}</div>
+    <div style="height:54px"></div>${rule}<div style="height:46px"></div>
+    <div class="p">${texto}</div>
+    <div style="height:${hueco}px"></div>
+    <div class="grow"></div>
+    <div class="foot" style="justify-content:center"><b>${cierre}</b></div><div style="height:250px"></div>`);
+
 await render({
   // 1 · Apertura de la serie
   'posadas-01': [P, portada(P, 'Temporada de posadas', 'En las posadas,<i>regala vino.</i>',
@@ -74,6 +86,12 @@ await render({
   ]), pie('Venta solo a mayores de 18 años', '04 / 04'))],
   'story-corp': [S, portada(S, 'Regalos corporativos', 'Para tu equipo<i>y tus clientes.</i>',
     'Este diciembre, que tu empresa<br>regale algo que sí se disfruta.', `Escríbenos · ${TIENDA.correo}`, 130, 250)],
+
+  // Stories de puente (manuales): dom 22 con la boutique cerrada y lun 23 calentando el carrusel del 24
+  'story-domingo': [S, storySticker('Domingo · Hoy descansamos', 'Aparta hoy,<i>recoge el lunes.</i>',
+    'Elige tus regalos en v612.mx<br>y pasa por ellos a la boutique.', 220, TIENDA.horario)],
+  'story-encuesta-corp': [S, storySticker('Regalos corporativos', '¿Y los regalos<i>de tu equipo?</i>',
+    'Cuéntanos. Mañana te decimos<br>cómo te ayudamos a resolverlo.', 360, 'Mañana 7:00 · en el feed')],
 
   // 3 · Guía: qué vino regalar
   'guia-regalo': [P, tabla('Cuaderno de cata · Para regalar', '¿Qué vino<i>regalar?</i>', pares([
