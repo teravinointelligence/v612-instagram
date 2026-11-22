@@ -62,6 +62,20 @@
       "filename": "disenos/story-corp.jpg",
       "scheduled_date": "2026-11-24",
       "sticker": "Link → mailto:hola@v612.mx o https://v612.mx/contacto"
+    },
+    {
+      "filename": "disenos/story-domingo.jpg",
+      "scheduled_date": "2026-11-22",
+      "publicacion": "Manual desde la app de Instagram (domingo, boutique cerrada)",
+      "sticker": "Link → https://v612.mx, en el hueco navy bajo el texto",
+      "nota": "Los apartados del domingo se confirman por WhatsApp el lunes al abrir."
+    },
+    {
+      "filename": "disenos/story-encuesta-corp.jpg",
+      "scheduled_date": "2026-11-23",
+      "publicacion": "Manual desde la app de Instagram, lunes ~9:00",
+      "sticker": "Encuesta «Sí, ya están» / «Todavía no», en el hueco navy bajo el texto",
+      "nota": "Calienta el carrusel corporativo del martes 24. El martes, escribir por DM a quienes votaron «Todavía no» con el link del carrusel y hola@v612.mx."
     }
   ]
 }
