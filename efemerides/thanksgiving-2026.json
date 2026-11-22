@@ -1,0 +1,23 @@
+{
+  "efemeride": "Thanksgiving (cuarto jueves de noviembre: 26 nov 2026)",
+  "scheduled_date": "2026-11-25",
+  "hora": "7:00 Los Cabos",
+  "estado": "PENDIENTE DE PROGRAMAR — falta seedear en el publicador (v612-web, scripts/seed-instagram.mjs)",
+  "angulo": "Se publica el miércoles, el día en que se compra el vino. El pavo también es de Nochebuena: la guía sirve esta semana y en diciembre.",
+  "type": "carrusel",
+  "carrusel": ["disenos/pavo-01.jpg", "disenos/pavo-02.jpg"],
+  "story": {
+    "filename": "disenos/story-pavo.jpg",
+    "scheduled_date": "2026-11-25",
+    "publicacion": "Manual desde la app de Instagram, miércoles después de las 7:00",
+    "sticker": "Link → https://v612.mx, en el hueco navy bajo el texto"
+  },
+  "botellas": {
+    "fuente": "Supabase v612 (products + inventory_levels, almacén v612), consultado el 22 nov 2026",
+    "Pinot Noir": { "sku": "BOGLEPINOT", "nombre": "Bogle Pinot Noir", "existencia": 6 },
+    "Chardonnay": { "sku": "554LECH", "nombre": "Lechuza Chardonnay Roble", "existencia": 49 },
+    "Rosado": { "sku": "65HAMPWT", "nombre": "Hampton Water Rosé Magnum", "existencia": 9 }
+  },
+  "nota": "Antes de publicar, confirmar que siguen las tres botellas en tienda; si falta alguna, cambiarla por otra de la misma uva (Pinot Noir: Les Jamelles, La Crema; Chardonnay: Tapiz, Chablis Icauna). No se mencionan precios ni añadas.",
+  "caption": "Con el pavo, ¿qué vino? 🦃🍷\n\nMañana es Thanksgiving y en un mes, Nochebuena: dos mesas con pavo al centro. Tres apuestas que no fallan:\n\n✦ Pinot Noir — el clásico. Fruta roja y taninos suaves que no se pelean con el pavo ni con el arándano. Bogle Pinot Noir, California.\n✦ Chardonnay con barrica — para quien prefiere blanco; acompaña el gravy y el puré. Lechuza Chardonnay Roble, Valle de Guadalupe.\n✦ Rosado en magnum — para la mesa grande. Hampton Water Rosé, Languedoc.\n\nGuarda este post para diciembre.\n\nHappy Thanksgiving to our friends from the U.S. — stop by and we'll help you pick the bottle.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Lunes a sábado, 10:00 a 20:00\n🛒 v612.mx\n\n#V612WineBoutique #Thanksgiving #Maridaje #Pavo #Nochebuena #LaPazBCS #VinoEnLaPaz #VinoBCS"
+}
