@@ -17,6 +17,8 @@ Cada bloque cubre ~12 publicaciones (2 semanas) con un tema editorial.
 | Bloque 7 | Nov 21–Dic 1, 2026 | Regala vino: posadas y regalos corporativos |
 | Bloque 8 | Dic 5–12, 2026 | Contando historias: Gómez Cruzado |
 
+Fuera de bloque: `efemerides/` (fechas del vino), `avisos/` (cierres y horarios) y `promos/` (promociones de un día en tienda, p. ej. «El vino del día»).
+
 ## Cómo seedear un bloque
 
 ```bash
