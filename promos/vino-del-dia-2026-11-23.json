@@ -2,12 +2,12 @@
   "promo": "El vino del día — Lechuza Chardonnay Roble: cata en boutique y 20% de descuento solo hoy",
   "fecha": "2026-11-23",
   "vigencia": "Lunes 23 de noviembre de 2026, de 10:00 a 20:00, en la boutique, hasta agotar existencias",
-  "estado": "PENDIENTE DE PUBLICAR — mismo día, publicación manual o inmediata en cuanto se apruebe",
+  "estado": "PUBLICADO por el publicador el 23 nov 2026, 13:26 Los Cabos (imagen servida desde GitHub, sin credenciales de R2 en la sesión)",
   "type": "post",
   "filename": "disenos/vino-del-dia-lechuza.jpg",
   "story": {
     "filename": "disenos/story-vino-del-dia-lechuza.jpg",
-    "publicacion": "Manual desde la app de Instagram, en cuanto se apruebe (hoy)",
+    "publicacion": "Manual desde la app de Instagram (el publicador no sube stories)",
     "sticker": "Ubicación «V612 Wine Boutique» a la derecha, bajo «solo hoy», o bajo la dirección del pie"
   },
   "botella": {
@@ -22,5 +22,7 @@
     "notas": "Notas de cata de la descripción oficial del Chardonnay Roble en shop.vinoslechuza.com (publicada para la añada 2022). El maridaje del caption es sugerencia editorial, no de la bodega."
   },
   "caption": "El vino del día 🍷 Lechuza Chardonnay Roble\n\nSolo hoy, lunes 23 de noviembre: pásate a la boutique a probarlo y llévatelo con 20% de descuento.\n\nChardonnay con barrica del Valle de Guadalupe, de Vinos Lechuza. En nariz, durazno deshidratado, vainilla y pan tostado; en boca, nuez y almendra, con acidez alta y buen cuerpo. Pídelo para un pescado a la mantequilla o un pollo rostizado.\n\nPromoción válida hoy hasta las 20:00 en la boutique, hasta agotar existencias.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Hoy, de 10:00 a 20:00\n💬 WhatsApp 624 159 9437\n\n#ElVinoDelDía #V612WineBoutique #VinoMexicano #ValleDeGuadalupe #Chardonnay #LaPazBCS #VinoEnLaPaz #VinoBCS",
-  "nota": "El miércoles 25 el carrusel de Thanksgiving (efemerides/thanksgiving-2026.json) recomienda este mismo vino sin descuento. Avisar al equipo de tienda que el 20% fue solo el lunes."
+  "nota": "El miércoles 25 el carrusel de Thanksgiving (efemerides/thanksgiving-2026.json) recomienda este mismo vino sin descuento. Avisar al equipo de tienda que el 20% fue solo el lunes.",
+  "ig_post_id": "f9e09c18-c7e6-439d-baef-584fba345e3b",
+  "ig_permalink": "https://www.instagram.com/p/DgGPGE6F4mC/"
 }
