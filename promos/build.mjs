@@ -1,7 +1,7 @@
 // Promociones puntuales en tienda: «El vino del día».
 // Lunes 23 nov 2026 — Lechuza Chardonnay Roble (SKU 554LECH): cata en boutique y 20% de descuento solo hoy.
-// Botella: packshot oficial de Vinos Lechuza (shop.vinoslechuza.com, producto «Chardonnay Roble 2022»,
-// recortado de la imagen del 6-pack, fondo transparente) → promos/fotos/LECHUZA-chardonnay-roble-oficial.png.
+// Botella: foto propia del catálogo V612 (Supabase v612 → storage product-images/554LECH.jpg), añada 2021,
+// la que hay en tienda. Fondo recortado con rembg → promos/fotos/LECHUZA-chardonnay-roble-2021.png.
 // Notas de cata: descripción oficial del mismo producto en la tienda de la bodega.
 // Uso: node promos/build.mjs → promos/disenos/*.jpg
 import { fileURLToPath } from 'node:url';
@@ -11,7 +11,7 @@ import { P, S, TIENDA, lockCrema, rule, pageCrema, render } from '../lib/estilo.
 
 const DIR = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(DIR, 'disenos');
-const foto = `data:image/png;base64,${readFileSync(path.join(DIR, 'fotos/LECHUZA-chardonnay-roble-oficial.png')).toString('base64')}`;
+const foto = `data:image/png;base64,${readFileSync(path.join(DIR, 'fotos/LECHUZA-chardonnay-roble-2021.png')).toString('base64')}`;
 const sombra = 'filter:drop-shadow(0 18px 22px rgba(26,41,84,.22))';
 
 const VINO = {

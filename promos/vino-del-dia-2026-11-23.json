@@ -13,12 +13,13 @@
   "botella": {
     "sku": "554LECH",
     "nombre": "Lechuza Chardonnay Roble — Vinos Lechuza, Valle de Guadalupe",
+    "añada": "2021 (confirmada en tienda por Sabrina, 23 nov 2026)",
     "precio_catalogo": 1072,
     "precio_con_descuento": 857.6,
     "fuente_precio": "Supabase v612, products.etiqueta_precio, consultado el 23 nov 2026",
     "existencia": "49 en almacén v612 según inventory_levels, pero el registro es del 7 jun 2026: confirmar en tienda",
-    "foto": "fotos/LECHUZA-chardonnay-roble-oficial.png — packshot oficial de shop.vinoslechuza.com (producto «Chardonnay Roble 2022», recortado de la imagen del 6-pack). La etiqueta muestra añada 2022; la foto del catálogo V612 muestra 2021.",
-    "notas": "Notas de cata de la descripción oficial del producto en shop.vinoslechuza.com. El maridaje del caption es sugerencia editorial, no de la bodega."
+    "foto": "fotos/LECHUZA-chardonnay-roble-2021.png — foto propia del catálogo V612 (Supabase v612, storage product-images/554LECH.jpg), añada 2021, con el fondo recortado",
+    "notas": "Notas de cata de la descripción oficial del Chardonnay Roble en shop.vinoslechuza.com (publicada para la añada 2022). El maridaje del caption es sugerencia editorial, no de la bodega."
   },
   "caption": "El vino del día 🍷 Lechuza Chardonnay Roble\n\nSolo hoy, lunes 23 de noviembre: pásate a la boutique a probarlo y llévatelo con 20% de descuento.\n\nChardonnay con barrica del Valle de Guadalupe, de Vinos Lechuza. En nariz, durazno deshidratado, vainilla y pan tostado; en boca, nuez y almendra, con acidez alta y buen cuerpo. Pídelo para un pescado a la mantequilla o un pollo rostizado.\n\nPromoción válida hoy hasta las 20:00 en la boutique, hasta agotar existencias.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Hoy, de 10:00 a 20:00\n💬 WhatsApp 624 159 9437\n\n#ElVinoDelDía #V612WineBoutique #VinoMexicano #ValleDeGuadalupe #Chardonnay #LaPazBCS #VinoEnLaPaz #VinoBCS",
   "nota": "El miércoles 25 el carrusel de Thanksgiving (efemerides/thanksgiving-2026.json) recomienda este mismo vino sin descuento. Avisar al equipo de tienda que el 20% fue solo el lunes."
