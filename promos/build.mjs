@@ -33,7 +33,7 @@ const VINOS = [
     nombre: 'Les Jamelles', cursiva: 'Sauvignon Blanc.', origen: 'Pays d’Oc · Sur de Francia', corto: 'Sur de Francia', tam: 66, tamS: 68, alto: 740, altoS: 800, sinDescuento: true,
     notas: 'Maracuyá, toronja rosa y madreselva. En boca, muy fresco y mineral, con buena acidez y un final refrescante.' },
   { archivo: 'vino-del-dia-2026-11-25', fecha: 'Miércoles 25 de noviembre', foto: 'PARAJES-cesar-marquez-2023-packshot.png',
-    nombre: 'César Márquez', cursiva: 'Parajes.', origen: 'Mencía · D.O. Bierzo · España', corto: 'Mencía del Bierzo', tam: 68, tamS: 66, fsFecha: 19,
+    nombre: 'César Márquez', cursiva: 'Parajes.', origen: 'Mencía · D.O. Bierzo · España', corto: 'Mencía del Bierzo', sinDescuento: true, tam: 68, tamS: 66, fsFecha: 19,
     notas: 'Flores frescas, cereza y hierbas secas. En boca, jugoso y redondo, de taninos muy finos y final largo y fresco.' },
   { archivo: 'vino-del-dia-2026-11-26', fecha: 'Jueves 26 de noviembre', foto: 'HABLA-de-ti-rose-oficial.jpg', opaca: true, alto: 700, altoS: 700,
     nombre: 'Habla de ti…', cursiva: 'Rosé.', origen: 'Rosado seco · Extremadura', corto: 'Extremadura · España', tam: 62, tamS: 66, fsNotas: 29,
