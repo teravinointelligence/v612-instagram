@@ -4,8 +4,10 @@
 //   · Oficial de la bodega cuando coincide: Habla de ti… Rosé (ficha de bodegashabla.com) y Lechuza Merlot 2021
 //     (shop.vinoslechuza.com).
 //   · Foto propia del catálogo V612 (Supabase v612 → product-images/<SKU>.jpg), con el fondo recortado, cuando la
-//     oficial no coincide o no existe: Lechuza Chardonnay Roble 2021, Les Jamelles Sauvignon Blanc 2024,
-//     César Márquez Parajes y Lechuza Viognier (edición limitada 2022).
+//     oficial no coincide o no existe: Lechuza Chardonnay Roble 2021, César Márquez Parajes y Lechuza Viognier
+//     (edición limitada 2022).
+//   · Excepción (24 nov): Les Jamelles Sauvignon Blanc usa el packshot oficial de boutique.les-jamelles.com,
+//     con la etiqueta nueva, aunque en tienda hay la etiqueta anterior (2024). Ese día fue solo cata, sin 20%.
 // Fuentes de cada vino y captions: promos/vino-del-dia-*.json.
 // Uso: node promos/build.mjs → promos/disenos/*.jpg
 import { fileURLToPath } from 'node:url';
@@ -20,12 +22,13 @@ const sombra = 'filter:drop-shadow(0 18px 22px rgba(26,41,84,.22))';
 
 // alto/altoS: alto de la botella en feed y story. Las fotos con fondo blanco (opaca: true) se funden con la
 // ficha crema por «multiply» y no llevan sombra. tam/tamS: tamaño del titular cuando el nombre es largo.
+// sinDescuento: el día solo lleva cata en la boutique, sin el 20%.
 const VINOS = [
   { archivo: 'vino-del-dia-lechuza', fecha: 'Lunes 23 de noviembre', foto: 'LECHUZA-chardonnay-roble-2021.png',
     nombre: 'Lechuza', cursiva: 'Chardonnay Roble.', origen: 'Valle de Guadalupe · Baja California', corto: 'Valle de Guadalupe',
     notas: 'Durazno deshidratado, vainilla y pan tostado. En boca, nuez y almendra, con acidez alta y buen cuerpo.' },
-  { archivo: 'vino-del-dia-2026-11-24', fecha: 'Martes 24 de noviembre', foto: 'LESJAMELLES-sauvignon-blanc-2024.png',
-    nombre: 'Les Jamelles', cursiva: 'Sauvignon Blanc.', origen: 'Pays d’Oc · Sur de Francia', corto: 'Sur de Francia', tam: 66, tamS: 68,
+  { archivo: 'vino-del-dia-2026-11-24', fecha: 'Martes 24 de noviembre', foto: 'LESJAMELLES-sauvignon-blanc-oficial.png',
+    nombre: 'Les Jamelles', cursiva: 'Sauvignon Blanc.', origen: 'Pays d’Oc · Sur de Francia', corto: 'Sur de Francia', tam: 66, tamS: 68, alto: 740, altoS: 800, sinDescuento: true,
     notas: 'Maracuyá, toronja rosa y madreselva. En boca, muy fresco y mineral, con buena acidez y un final refrescante.' },
   { archivo: 'vino-del-dia-2026-11-25', fecha: 'Miércoles 25 de noviembre', foto: 'PARAJES-cesar-marquez-2023.png',
     nombre: 'César Márquez', cursiva: 'Parajes.', origen: 'Mencía · D.O. Bierzo · España', corto: 'Mencía del Bierzo', tam: 68, tamS: 66, fsFecha: 19,
@@ -45,10 +48,10 @@ const img = (v, alto, extra = '') =>
   `<img src="${foto(v.foto)}" ${v.opaca ? 'class="botella"' : ''} style="height:${alto}px;${v.opaca ? '' : sombra};${extra}">`;
 
 // Bloque de la oferta: dos filas con línea fina (la guía pide datos en filas, no en párrafos)
-const oferta = (fs = 34) => `
+const oferta = (fs = 34, sin = false) => `
   <div class="tbl">
-    <div class="tr" style="padding:20px 0"><span class="k">Hoy</span><span class="v" style="font-size:${fs}px">Cata en la boutique</span></div>
-    <div class="tr" style="padding:20px 0"><span class="k">Solo hoy</span><span class="v" style="font-size:${fs + 10}px;font-style:italic;color:#A8843A;white-space:nowrap">20% de descuento</span></div>
+    <div class="tr" style="padding:20px 0"><span class="k">${sin ? 'Solo hoy' : 'Hoy'}</span><span class="v" style="font-size:${sin ? fs + 8 : fs}px;${sin ? 'font-style:italic;color:#A8843A;white-space:nowrap' : ''}">Cata en la boutique</span></div>
+    ${sin ? '' : `<div class="tr" style="padding:20px 0"><span class="k">Solo hoy</span><span class="v" style="font-size:${fs + 10}px;font-style:italic;color:#A8843A;white-space:nowrap">20% de descuento</span></div>`}
   </div>`;
 
 const post = (v) => pageCrema(P, '', `
@@ -63,7 +66,7 @@ const post = (v) => pageCrema(P, '', `
         <div style="height:26px"></div>${rule}<div style="height:24px"></div>
         <div class="p" style="font-size:${v.fsNotas ?? 31}px">${v.notas}</div>
         <div style="height:34px"></div>
-        ${oferta(v.opaca ? 30 : 34)}
+        ${oferta(v.opaca ? 30 : 34, v.sinDescuento)}
       </div>
     </div>
     <div class="foot"><span>Hoy de 10:00 a 20:00</span><b>Centro, La Paz</b></div>`);
@@ -80,8 +83,9 @@ const story = (v) => pageCrema(S, 'mid', `
         <div class="q" style="margin-top:16px;font-size:30px">${v.corto}</div>
         <div style="height:30px"></div>${rule}<div style="height:30px"></div>
         <div class="p" style="font-size:36px">Pásate hoy a probarlo.</div>
-        <div class="h" style="font-size:96px;margin-top:22px"><em>20%</em></div>
-        <div class="p" style="font-size:36px;margin-top:-4px">de descuento,<br>solo hoy.</div>
+        ${v.sinDescuento ? `<div class="h" style="font-size:64px;margin-top:22px"><em>Cata</em></div>
+        <div class="p" style="font-size:36px;margin-top:2px">en la boutique,<br>solo hoy.</div>` : `<div class="h" style="font-size:96px;margin-top:22px"><em>20%</em></div>
+        <div class="p" style="font-size:36px;margin-top:-4px">de descuento,<br>solo hoy.</div>`}
       </div>
     </div>
     <div class="grow"></div>

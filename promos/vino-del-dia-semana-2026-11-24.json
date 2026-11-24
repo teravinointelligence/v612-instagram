@@ -1,7 +1,7 @@
 {
   "promo": "El vino del día — semana del 24 al 28 de noviembre de 2026",
   "mecanica": "Cada día, un vino: cata en la boutique y 20% de descuento solo ese día, de 10:00 a 20:00, hasta agotar existencias. Las piezas no llevan precios.",
-  "estado": "PENDIENTE DE PROGRAMAR — falta la autorización final y confirmar la mecánica (20% y cata) para estos cinco días",
+  "estado": "24 nov PUBLICADO (solo cata, sin 20%). 25 al 28 nov PENDIENTES DE PROGRAMAR — falta la autorización final y confirmar la mecánica de cada día (¿llevan 20% o solo cata?)",
   "publicacion": {
     "feed": "Publicador de V612 (Supabase ig_posts). Sin credenciales de R2 en la sesión, la imagen se sirve desde una copia en este repo.",
     "story": "Manual desde la app de Instagram: el publicador no admite stories (faltan permisos de Meta). Sticker de ubicación «V612 Wine Boutique» bajo «solo hoy»."
@@ -16,11 +16,15 @@
       "botella": {
         "sku": "LESJAMESUA",
         "nombre": "Les Jamelles Sauvignon Blanc — IGP Pays d'Oc, Francia",
-        "añada": "2024 (la etiqueta de la foto de tienda dice «Pays d'Oc 2024»)",
-        "foto": "fotos/LESJAMELLES-sauvignon-blanc-2024.png — foto propia del catálogo V612, fondo recortado y balance de blancos corregido. La foto de la tienda oficial (boutique.les-jamelles.com) muestra otra etiqueta (abeja, «Sud de France», sin añada), por eso no se usó.",
+        "añada": "2024 en tienda (etiqueta anterior: «Depuis 1995», «Pays d'Oc 2024»). La pieza muestra la etiqueta nueva de la bodega, sin añada.",
+        "foto": "fotos/LESJAMELLES-sauvignon-blanc-oficial.png — packshot oficial de la ficha del vino en boutique.les-jamelles.com (etiqueta nueva: abeja, «Sud de France», sin añada). Excepción a la regla de imagen, autorizada por Sabrina el 24 nov 2026: no coincide con la etiqueta de la botella en tienda. La foto propia del catálogo (fotos/LESJAMELLES-sauvignon-blanc-2024.png) queda como respaldo.",
         "notas": "Notas, temperatura y maridaje de la página oficial del vino en boutique.les-jamelles.com (publicada para la añada 2025)."
       },
-      "caption": "El vino del día 🍷 Les Jamelles Sauvignon Blanc\n\nSolo hoy, martes 24 de noviembre: pásate a la boutique a probarlo y llévatelo con 20% de descuento.\n\nSauvignon Blanc del sur de Francia (IGP Pays d'Oc), de la casa de Catherine Delaunay. En nariz, maracuyá, toronja rosa y madreselva; en boca, muy fresco y mineral, con buena acidez y un final refrescante. La casa lo recomienda bien frío con ceviche o con ensalada de camarón, toronja y aguacate.\n\nPromoción válida hoy hasta las 20:00 en la boutique, hasta agotar existencias.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Hoy, de 10:00 a 20:00\n💬 WhatsApp 624 159 9437\n\n#ElVinoDelDía #V612WineBoutique #SauvignonBlanc #VinoFrancés #LaPazBCS #VinoEnLaPaz #VinoBCS"
+      "caption": "El vino del día 🍷 Les Jamelles Sauvignon Blanc\n\nSolo hoy, martes 24 de noviembre: pásate a la boutique a probarlo.\n\nSauvignon Blanc del sur de Francia (IGP Pays d'Oc), de la casa de Catherine Delaunay. En nariz, maracuyá, toronja rosa y madreselva; en boca, muy fresco y mineral, con buena acidez y un final refrescante. La casa lo recomienda bien frío con ceviche o con ensalada de camarón, toronja y aguacate.\n\nCata hoy hasta las 20:00 en la boutique.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Hoy, de 10:00 a 20:00\n💬 WhatsApp 624 159 9437\n\n#ElVinoDelDía #V612WineBoutique #SauvignonBlanc #VinoFrancés #LaPazBCS #VinoEnLaPaz #VinoBCS",
+      "estado": "PUBLICADO por el publicador el 24 nov 2026, 13:15 Los Cabos (imagen servida desde GitHub, sin credenciales de R2 en la sesión). Story pendiente: se sube a mano.",
+      "mecanica": "Solo cata en la boutique; este vino NO lleva el 20% de descuento (indicación de Sabrina, 24 nov 2026).",
+      "ig_post_id": "bd0b0945-bf6c-4800-bb8b-9690531d9423",
+      "ig_permalink": "https://www.instagram.com/p/DgIyoOIF3kz/"
     },
     {
       "scheduled_date": "2026-11-25",
