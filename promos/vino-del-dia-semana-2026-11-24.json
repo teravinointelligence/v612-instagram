@@ -6,7 +6,7 @@
     "feed": "Publicador de V612 (Supabase ig_posts). Sin credenciales de R2 en la sesión, la imagen se sirve desde una copia en este repo.",
     "story": "Manual desde la app de Instagram: el publicador no admite stories (faltan permisos de Meta). Sticker de ubicación «V612 Wine Boutique» bajo «solo hoy»."
   },
-  "regla_de_imagen": "La imagen debe mostrar la botella que hay en tienda (misma etiqueta y añada). Oficial de la bodega cuando coincide; si no, foto propia del catálogo V612 con el fondo recortado.",
+  "regla_de_imagen": "La imagen debe mostrar el vino que hay en tienda. Desde el 24 nov 2026 (indicación de Sabrina): no importa que la añada de la foto no coincida; se prefiere un packshot limpio (oficial de la bodega cuando existe) a la foto propia del catálogo.",
   "dias": [
     {
       "scheduled_date": "2026-11-24",
@@ -35,7 +35,7 @@
         "sku": "033CEPARAJ",
         "nombre": "César Márquez Parajes — Mencía, D.O. Bierzo, España",
         "añada": "2023 (según el catálogo V612; en la foto no se lee la añada)",
-        "foto": "fotos/PARAJES-cesar-marquez-2023.png — foto propia del catálogo V612, fondo recortado y balance de blancos corregido. No se encontró sitio oficial del productor.",
+        "foto": "fotos/PARAJES-cesar-marquez-2023-packshot.png — packshot de la añada 2023 tomado de un minorista (systembolaget.se/93578), fondo transparente; misma etiqueta que la botella en tienda. No se encontró sitio propio del productor: es imagen de un tercero, conviene pedir el packshot oficial al proveedor. La foto propia del catálogo (fotos/PARAJES-cesar-marquez-2023.png) queda como respaldo.",
         "notas": "Notas y maridaje de la ficha V612 del vino (Drive: Ficha_V612_Cesar_Marquez_Parajes.pdf, escrita para la añada 2019)."
       },
       "caption": "El vino del día 🍷 César Márquez Parajes\n\nSolo hoy, miércoles 25 de noviembre: pásate a la boutique a probarlo y llévatelo con 20% de descuento.\n\nMencía del Bierzo, de parcelas en nueve pueblos de la región, firmado por César Márquez. En nariz, flores frescas, cereza y hierbas secas; en boca, jugoso y redondo, de taninos muy finos y final largo y fresco. Pruébalo con cochinita pibil, tacos de lechón o pescado zarandeado.\n\nPromoción válida hoy hasta las 20:00 en la boutique, hasta agotar existencias.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Hoy, de 10:00 a 20:00\n💬 WhatsApp 624 159 9437\n\n#ElVinoDelDía #V612WineBoutique #Mencía #Bierzo #VinoEspañol #LaPazBCS #VinoEnLaPaz #VinoBCS"

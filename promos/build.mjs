@@ -1,11 +1,13 @@
 // Promociones puntuales en tienda: «El vino del día» (semana del 23 al 28 de noviembre de 2026).
 // Mecánica: cata en la boutique y 20% de descuento solo ese día. Las piezas no llevan precios.
-// Botellas en promos/fotos/. Regla: la imagen debe mostrar la botella que hay en tienda (misma etiqueta y añada).
+// Botellas en promos/fotos/. Regla: la imagen debe mostrar el vino que hay en tienda. Desde el 24 nov 2026 (Sabrina):
+// no importa que la añada de la foto no coincida; se prefiere un packshot limpio a la foto de catálogo.
 //   · Oficial de la bodega cuando coincide: Habla de ti… Rosé (ficha de bodegashabla.com) y Lechuza Merlot 2021
 //     (shop.vinoslechuza.com).
 //   · Foto propia del catálogo V612 (Supabase v612 → product-images/<SKU>.jpg), con el fondo recortado, cuando la
-//     oficial no coincide o no existe: Lechuza Chardonnay Roble 2021, César Márquez Parajes y Lechuza Viognier
-//     (edición limitada 2022).
+//     oficial no coincide o no existe: Lechuza Chardonnay Roble 2021 y Lechuza Viognier (edición limitada 2022).
+//   · César Márquez Parajes (25 nov): el productor no tiene sitio propio; packshot 2023 de un minorista
+//     (systembolaget.se/93578), misma etiqueta que en tienda.
 //   · Excepción (24 nov): Les Jamelles Sauvignon Blanc usa el packshot oficial de boutique.les-jamelles.com,
 //     con la etiqueta nueva, aunque en tienda hay la etiqueta anterior (2024). Ese día fue solo cata, sin 20%.
 // Fuentes de cada vino y captions: promos/vino-del-dia-*.json.
@@ -30,7 +32,7 @@ const VINOS = [
   { archivo: 'vino-del-dia-2026-11-24', fecha: 'Martes 24 de noviembre', foto: 'LESJAMELLES-sauvignon-blanc-oficial.png',
     nombre: 'Les Jamelles', cursiva: 'Sauvignon Blanc.', origen: 'Pays d’Oc · Sur de Francia', corto: 'Sur de Francia', tam: 66, tamS: 68, alto: 740, altoS: 800, sinDescuento: true,
     notas: 'Maracuyá, toronja rosa y madreselva. En boca, muy fresco y mineral, con buena acidez y un final refrescante.' },
-  { archivo: 'vino-del-dia-2026-11-25', fecha: 'Miércoles 25 de noviembre', foto: 'PARAJES-cesar-marquez-2023.png',
+  { archivo: 'vino-del-dia-2026-11-25', fecha: 'Miércoles 25 de noviembre', foto: 'PARAJES-cesar-marquez-2023-packshot.png',
     nombre: 'César Márquez', cursiva: 'Parajes.', origen: 'Mencía · D.O. Bierzo · España', corto: 'Mencía del Bierzo', tam: 68, tamS: 66, fsFecha: 19,
     notas: 'Flores frescas, cereza y hierbas secas. En boca, jugoso y redondo, de taninos muy finos y final largo y fresco.' },
   { archivo: 'vino-del-dia-2026-11-26', fecha: 'Jueves 26 de noviembre', foto: 'HABLA-de-ti-rose-oficial.jpg', opaca: true, alto: 700, altoS: 700,
