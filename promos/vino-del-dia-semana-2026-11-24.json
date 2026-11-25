@@ -1,7 +1,7 @@
 {
   "promo": "El vino del día — semana del 24 al 28 de noviembre de 2026",
   "mecanica": "Cada día, un vino: cata en la boutique y 20% de descuento solo ese día, de 10:00 a 20:00, hasta agotar existencias. Las piezas no llevan precios.",
-  "estado": "24 nov PUBLICADO (solo cata, sin 20%). 25 nov LISTO, solo cata, pendiente de programar (falta hora y visto bueno). 26 al 28 nov PENDIENTES — falta confirmar la mecánica de cada día (¿llevan 20% o solo cata?)",
+  "estado": "24 y 25 nov PUBLICADOS (solo cata, sin 20%). 26 al 28 nov PENDIENTES — falta confirmar la mecánica de cada día (¿llevan 20% o solo cata?)",
   "publicacion": {
     "feed": "Publicador de V612 (Supabase ig_posts). Sin credenciales de R2 en la sesión, la imagen se sirve desde una copia en este repo.",
     "story": "Manual desde la app de Instagram: el publicador no admite stories (faltan permisos de Meta). Sticker de ubicación «V612 Wine Boutique» bajo «solo hoy»."
@@ -39,7 +39,10 @@
         "notas": "Notas y maridaje de la ficha V612 del vino (Drive: Ficha_V612_Cesar_Marquez_Parajes.pdf, escrita para la añada 2019)."
       },
       "caption": "El vino del día 🍷 César Márquez Parajes\n\nSolo hoy, miércoles 25 de noviembre: pásate a la boutique a probarlo.\n\nMencía del Bierzo, de parcelas en nueve pueblos de la región, firmado por César Márquez. En nariz, flores frescas, cereza y hierbas secas; en boca, jugoso y redondo, de taninos muy finos y final largo y fresco. Pruébalo con cochinita pibil, tacos de lechón o pescado zarandeado.\n\nCata hoy hasta las 20:00 en la boutique.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Hoy, de 10:00 a 20:00\n💬 WhatsApp 624 159 9437\n\n#ElVinoDelDía #V612WineBoutique #Mencía #Bierzo #VinoEspañol #LaPazBCS #VinoEnLaPaz #VinoBCS",
-      "mecanica": "Solo cata en la boutique; sin el 20% de descuento (indicación de Sabrina, 24 nov 2026)."
+      "mecanica": "Solo cata en la boutique; sin el 20% de descuento (indicación de Sabrina, 24 nov 2026).",
+      "estado": "PUBLICADO por el publicador el 25 nov 2026, 7:35 Los Cabos (imagen servida desde GitHub, sin credenciales de R2 en la sesión). Story pendiente: se sube a mano.",
+      "ig_post_id": "76d20d5e-9c60-4574-8fb5-6e9cc1818790",
+      "ig_permalink": "https://www.instagram.com/p/DgKwg8Fl-kj/"
     },
     {
       "scheduled_date": "2026-11-26",
