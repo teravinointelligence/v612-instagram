@@ -1,0 +1,94 @@
+{
+  "promo": "El vino del día — semana del 24 al 28 de noviembre de 2026",
+  "mecanica": "Cada día, un vino: cata en la boutique y 20% de descuento solo ese día, de 10:00 a 20:00, hasta agotar existencias. Las piezas no llevan precios.",
+  "estado": "24 y 25 nov PUBLICADOS (solo cata, sin 20%). 26 al 28 nov PENDIENTES — falta confirmar la mecánica de cada día (¿llevan 20% o solo cata?)",
+  "publicacion": {
+    "feed": "Publicador de V612 (Supabase ig_posts). Sin credenciales de R2 en la sesión, la imagen se sirve desde una copia en este repo.",
+    "story": "Manual desde la app de Instagram: el publicador no admite stories (faltan permisos de Meta). Sticker de ubicación «V612 Wine Boutique» bajo «solo hoy»."
+  },
+  "regla_de_imagen": "La imagen debe mostrar el vino que hay en tienda. Desde el 24 nov 2026 (indicación de Sabrina): no importa que la añada de la foto no coincida; se prefiere un packshot limpio (oficial de la bodega cuando existe) a la foto propia del catálogo.",
+  "dias": [
+    {
+      "scheduled_date": "2026-11-24",
+      "type": "post",
+      "filename": "disenos/vino-del-dia-2026-11-24.jpg",
+      "story": "disenos/story-vino-del-dia-2026-11-24.jpg",
+      "botella": {
+        "sku": "LESJAMESUA",
+        "nombre": "Les Jamelles Sauvignon Blanc — IGP Pays d'Oc, Francia",
+        "añada": "2024 en tienda (etiqueta anterior: «Depuis 1995», «Pays d'Oc 2024»). La pieza muestra la etiqueta nueva de la bodega, sin añada.",
+        "foto": "fotos/LESJAMELLES-sauvignon-blanc-oficial.png — packshot oficial de la ficha del vino en boutique.les-jamelles.com (etiqueta nueva: abeja, «Sud de France», sin añada). Excepción a la regla de imagen, autorizada por Sabrina el 24 nov 2026: no coincide con la etiqueta de la botella en tienda. La foto propia del catálogo (fotos/LESJAMELLES-sauvignon-blanc-2024.png) queda como respaldo.",
+        "notas": "Notas, temperatura y maridaje de la página oficial del vino en boutique.les-jamelles.com (publicada para la añada 2025)."
+      },
+      "caption": "El vino del día 🍷 Les Jamelles Sauvignon Blanc\n\nSolo hoy, martes 24 de noviembre: pásate a la boutique a probarlo.\n\nSauvignon Blanc del sur de Francia (IGP Pays d'Oc), de la casa de Catherine Delaunay. En nariz, maracuyá, toronja rosa y madreselva; en boca, muy fresco y mineral, con buena acidez y un final refrescante. La casa lo recomienda bien frío con ceviche o con ensalada de camarón, toronja y aguacate.\n\nCata hoy hasta las 20:00 en la boutique.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Hoy, de 10:00 a 20:00\n💬 WhatsApp 624 159 9437\n\n#ElVinoDelDía #V612WineBoutique #SauvignonBlanc #VinoFrancés #LaPazBCS #VinoEnLaPaz #VinoBCS",
+      "estado": "PUBLICADO por el publicador el 24 nov 2026, 13:15 Los Cabos (imagen servida desde GitHub, sin credenciales de R2 en la sesión). Story pendiente: se sube a mano.",
+      "mecanica": "Solo cata en la boutique; este vino NO lleva el 20% de descuento (indicación de Sabrina, 24 nov 2026).",
+      "ig_post_id": "bd0b0945-bf6c-4800-bb8b-9690531d9423",
+      "ig_permalink": "https://www.instagram.com/p/DgIyoOIF3kz/"
+    },
+    {
+      "scheduled_date": "2026-11-25",
+      "type": "post",
+      "filename": "disenos/vino-del-dia-2026-11-25.jpg",
+      "story": "disenos/story-vino-del-dia-2026-11-25.jpg",
+      "botella": {
+        "sku": "033CEPARAJ",
+        "nombre": "César Márquez Parajes — Mencía, D.O. Bierzo, España",
+        "añada": "2023 (según el catálogo V612; en la foto no se lee la añada)",
+        "foto": "fotos/PARAJES-cesar-marquez-2023-packshot.png — packshot de la añada 2023 tomado de un minorista (systembolaget.se/93578), fondo transparente; misma etiqueta que la botella en tienda. No se encontró sitio propio del productor: es imagen de un tercero, conviene pedir el packshot oficial al proveedor. La foto propia del catálogo (fotos/PARAJES-cesar-marquez-2023.png) queda como respaldo.",
+        "notas": "Notas y maridaje de la ficha V612 del vino (Drive: Ficha_V612_Cesar_Marquez_Parajes.pdf, escrita para la añada 2019)."
+      },
+      "caption": "El vino del día 🍷 César Márquez Parajes\n\nSolo hoy, miércoles 25 de noviembre: pásate a la boutique a probarlo.\n\nMencía del Bierzo, de parcelas en nueve pueblos de la región, firmado por César Márquez. En nariz, flores frescas, cereza y hierbas secas; en boca, jugoso y redondo, de taninos muy finos y final largo y fresco. Pruébalo con cochinita pibil, tacos de lechón o pescado zarandeado.\n\nCata hoy hasta las 20:00 en la boutique.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Hoy, de 10:00 a 20:00\n💬 WhatsApp 624 159 9437\n\n#ElVinoDelDía #V612WineBoutique #Mencía #Bierzo #VinoEspañol #LaPazBCS #VinoEnLaPaz #VinoBCS",
+      "mecanica": "Solo cata en la boutique; sin el 20% de descuento (indicación de Sabrina, 24 nov 2026).",
+      "estado": "PUBLICADO por el publicador el 25 nov 2026, 7:35 Los Cabos (imagen servida desde GitHub, sin credenciales de R2 en la sesión). Story pendiente: se sube a mano.",
+      "ig_post_id": "76d20d5e-9c60-4574-8fb5-6e9cc1818790",
+      "ig_permalink": "https://www.instagram.com/p/DgKwg8Fl-kj/"
+    },
+    {
+      "scheduled_date": "2026-11-26",
+      "type": "post",
+      "filename": "disenos/vino-del-dia-2026-11-26.jpg",
+      "story": "disenos/story-vino-del-dia-2026-11-26.jpg",
+      "botella": {
+        "sku": "225HATIROS",
+        "nombre": "Habla de ti… Rosé — Bodegas Habla, Extremadura, España",
+        "añada": "Sin añada visible en la botella; confirmar en tienda",
+        "foto": "fotos/HABLA-de-ti-rose-oficial.jpg — imagen oficial de la ficha del producto de Bodegas Habla (bodegashabla.com/fichaProducto/rose.pdf), con las flores del arte original.",
+        "notas": "Notas y maridaje de la ficha V612 (Drive: Ficha_V612_Habla_de_ti_Rose.pdf) y de la ficha de cata oficial en bodegashabla.com."
+      },
+      "caption": "El vino del día 🍷 Habla de ti… Rosé\n\nSolo hoy, jueves 26 de noviembre: pásate a la boutique a probarlo y llévatelo con 20% de descuento.\n\nRosado seco de Bodegas Habla, en Extremadura: Garnacha, Cinsault y Syrah de viticultura ecológica, con cinco meses sobre lías. En nariz, grosella, lavanda, amapola y violeta; en boca, sedoso y fresco, con buena persistencia. Va con arroces marineros, aguachile, carpaccio de atún o salmón ahumado.\n\nPromoción válida hoy hasta las 20:00 en la boutique, hasta agotar existencias.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Hoy, de 10:00 a 20:00\n💬 WhatsApp 624 159 9437\n\n#ElVinoDelDía #V612WineBoutique #Rosado #VinoRosado #VinoEspañol #LaPazBCS #VinoEnLaPaz #VinoBCS"
+    },
+    {
+      "scheduled_date": "2026-11-27",
+      "type": "post",
+      "filename": "disenos/vino-del-dia-2026-11-27.jpg",
+      "story": "disenos/story-vino-del-dia-2026-11-27.jpg",
+      "botella": {
+        "sku": "LECHUVIOGE",
+        "nombre": "Lechuza Viognier — Vinos Lechuza, Valle de Guadalupe",
+        "añada": "2022, edición especial y limitada (la etiqueta dice: cosecha 2022, 12.34% alc., 1 año de añejamiento, «Viognier Roble»)",
+        "foto": "fotos/LECHUZA-viognier-2022.png — foto propia del catálogo V612, fondo recortado y balance de blancos corregido. La foto oficial del Viognier Roble 2022 (shop.vinoslechuza.com) muestra la etiqueta negra estándar, no la de edición limitada que hay en tienda.",
+        "notas": "Notas de la descripción oficial del Viognier Roble en shop.vinoslechuza.com (publicada para la añada 2023); barrica y añada, de la etiqueta. El maridaje es sugerencia editorial, no de la bodega."
+      },
+      "caption": "El vino del día 🍷 Lechuza Viognier\n\nSolo hoy, viernes 27 de noviembre: pásate a la boutique a probarlo y llévatelo con 20% de descuento.\n\nViognier del Valle de Guadalupe, de Vinos Lechuza, en edición especial y limitada: cosecha 2022 con un año en barrica. En nariz, nectarina, chabacano y vainilla; en boca, pan tostado, mandarina y manzana verde. Pídelo para unos camarones a la mantequilla o un queso cremoso.\n\nPromoción válida hoy hasta las 20:00 en la boutique, hasta agotar existencias.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Hoy, de 10:00 a 20:00\n💬 WhatsApp 624 159 9437\n\n#ElVinoDelDía #V612WineBoutique #Viognier #VinoMexicano #ValleDeGuadalupe #LaPazBCS #VinoEnLaPaz #VinoBCS"
+    },
+    {
+      "scheduled_date": "2026-11-28",
+      "type": "post",
+      "filename": "disenos/vino-del-dia-2026-11-28.jpg",
+      "story": "disenos/story-vino-del-dia-2026-11-28.jpg",
+      "botella": {
+        "sku": "LECHUMERLO",
+        "nombre": "Lechuza Merlot — Vinos Lechuza, Valle de Guadalupe",
+        "añada": "2021 (coincide la foto de tienda con la oficial)",
+        "foto": "fotos/LECHUZA-merlot-2021-oficial.png — foto oficial de la bodega (shop.vinoslechuza.com, LECHUZA_MERLOT_2021.png), fondo transparente.",
+        "notas": "Notas de la descripción oficial del Merlot 2021 en shop.vinoslechuza.com. El maridaje es sugerencia editorial, no de la bodega."
+      },
+      "caption": "El vino del día 🍷 Lechuza Merlot\n\nSolo hoy, sábado 28 de noviembre: pásate a la boutique a probarlo y llévatelo con 20% de descuento.\n\nMerlot del Valle de Guadalupe, de Vinos Lechuza. En nariz, frambuesa y cereza con toques florales y especiados; en boca, de cuerpo ligero a medio, con taninos suaves y un final fresco. Pídelo para una pasta con ragú, una pizza o una tabla de quesos.\n\nPromoción válida hoy hasta las 20:00 en la boutique, hasta agotar existencias.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Hoy, de 10:00 a 20:00\n💬 WhatsApp 624 159 9437\n\n#ElVinoDelDía #V612WineBoutique #Merlot #VinoMexicano #ValleDeGuadalupe #LaPazBCS #VinoEnLaPaz #VinoBCS"
+    }
+  ],
+  "notas": [
+    "Existencias según Supabase v612 (inventory_levels, almacén v612): Les Jamelles 18, Parajes 6, Habla de ti Rosé 6 y Viognier 24, con fecha de junio de 2026; Merlot 46, del 2 de noviembre. Confirmar en tienda antes de cada día.",
+    "El carrusel de Thanksgiving (efemerides/thanksgiving-2026.json) sigue sin programar en el publicador."
+  ]
+}
