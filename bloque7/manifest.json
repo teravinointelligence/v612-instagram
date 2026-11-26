@@ -76,6 +76,42 @@
       "publicacion": "Manual desde la app de Instagram, lunes ~9:00",
       "sticker": "Encuesta «Sí, ya están» / «Todavía no», en el hueco navy bajo el texto",
       "nota": "Calienta el carrusel corporativo del martes 24. El martes, escribir por DM a quienes votaron «Todavía no» con el link del carrusel y hola@v612.mx."
+    },
+    {
+      "filename": "disenos/story-guia-regalo.jpg",
+      "scheduled_date": "2026-11-26",
+      "publicacion": "Manual desde la app de Instagram, jueves 26 en cuanto se confirmen las botellas en tienda",
+      "sticker": "Link → https://wa.me/526241599437 («Apártala»), en el hueco crema entre «Pregúntanos…» y el horario",
+      "nota": "Seguimiento del post «¿Qué vino regalar?»: pone una botella real en cada caso de la guía. Script: bloque7/story-guia.mjs. Sin precios ni añadas.",
+      "botellas": {
+        "fuente": "Supabase v612 (products + inventory_levels, almacén v612), consultado el 26 nov 2026",
+        "Intercambio · tinto amable": {
+          "sku": "YANCOTERHO",
+          "nombre": "Yannick Alléno & M. Chapoutier Côtes du Rhône",
+          "existencia": 5,
+          "registro": "2026-11-13"
+        },
+        "Anfitriones · espumoso": {
+          "sku": "41AYCH",
+          "nombre": "Ayala Champagne Brut Majeur",
+          "existencia": 6,
+          "registro": "2026-11-21"
+        },
+        "Cliente o jefe · con historia": {
+          "sku": "153LASSEG",
+          "nombre": "Les Cadrans de Lassègue, Saint-Émilion Grand Cru",
+          "existencia": 6,
+          "registro": "2026-10-29"
+        },
+        "Si no sabes · rosado seco": {
+          "sku": "202OODROS",
+          "nombre": "Roseblood d'Estoublon Rosé, Provence",
+          "existencia": 6,
+          "registro": "2026-06-11; existencia confirmada en tienda por Sabrina el 26 nov 2026"
+        }
+      },
+      "descartadas": "Lechuza, Bogle y Hampton Water (salieron el 23 y 25 de noviembre), Gómez Cruzado (Bloque 8) y Fleurie (Beaujolais del 18).",
+      "estado": "LISTA PARA PUBLICAR: las cuatro botellas confirmadas; se sube a mano desde la app"
     }
   ]
 }
