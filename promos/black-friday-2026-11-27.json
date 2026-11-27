@@ -13,13 +13,24 @@
     "sticker": "Ubicación «V612 Wine Boutique» o link → https://wa.me/526241599437, en el hueco navy bajo la dirección"
   },
   "bodegas_con_existencia": {
-    "fuente": "Supabase v612 (products + inventory_levels, almacén v612), consultado el 27 nov 2026; confirmar en tienda",
-    "Valle de Guadalupe": ["Bruma (Casa Jipi, Ocho, Plan B, La Vedette)", "Lechuza (Cabernet, Chardonnay Roble, Merlot, Nebbiolo, Viognier, Vuelo)", "Vinícola Discográfica (Ballena Tinta, Dr Surfo, Ensenadette, Fluxus)"],
-    "Valle de Santo Tomás": ["Casa Zamora (Redes)"],
-    "Querétaro": ["Tacuche (Brut, Rosé Brut, Rosé de Pinot Noir)", "Vinaltura (Abrepuertas Rosé, Sauvignon Blanco Seco)"],
-    "Guanajuato": ["Cuna de Tierra (Nebbiolo, precio de remate)", "Maca & Olivia (Cabernet, Malbec, Merlot)"],
-    "Zacatecas": ["Tierra Adentro / Campo Real (Cab-Mer-Mal, Syrah)"]
+    "fuente": "Supabase v612 (products + inventory_levels, almacén v612), consultado el 27 nov 2026; confirmar en tienda. Casa Zamora Redes (Santo Tomás) aparecía con 6 botellas de junio, pero Sabrina confirmó el 27 nov que no hay: corregir inventory_levels.",
+    "Valle de Guadalupe": [
+      "Bruma (Casa Jipi, Ocho, Plan B, La Vedette)",
+      "Lechuza (Cabernet, Chardonnay Roble, Merlot, Nebbiolo, Viognier, Vuelo)",
+      "Vinícola Discográfica (Ballena Tinta, Dr Surfo, Ensenadette, Fluxus)"
+    ],
+    "Querétaro": [
+      "Tacuche (Brut, Rosé Brut, Rosé de Pinot Noir)",
+      "Vinaltura (Abrepuertas Rosé, Sauvignon Blanco Seco)"
+    ],
+    "Guanajuato": [
+      "Cuna de Tierra (Nebbiolo, precio de remate)",
+      "Maca & Olivia (Cabernet, Malbec, Merlot)"
+    ],
+    "Zacatecas": [
+      "Tierra Adentro / Campo Real (Cab-Mer-Mal, Syrah)"
+    ]
   },
-  "caption": "Black Friday 🍷 Hoy, el vino es mexicano\n\nSolo hoy, viernes 27 de noviembre: 10% de descuento en todos los vinos mexicanos de la boutique.\n\nValle de Guadalupe, Santo Tomás, Querétaro, Guanajuato y Zacatecas: Bruma, Lechuza, Vinícola Discográfica, Tacuche, Vinaltura, Cuna de Tierra, Tierra Adentro, Casa Zamora y Maca & Olivia. Pásate a elegir el tuyo o escríbenos y te lo apartamos.\n\nPromoción válida hoy hasta las 20:00 en la boutique, hasta agotar existencias. No acumulable con otras promociones.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Hoy, de 10:00 a 20:00\n💬 WhatsApp 624 159 9437\n\n#BlackFriday #VinoMexicano #V612WineBoutique #ValleDeGuadalupe #VinoDeMéxico #LaPazBCS #VinoEnLaPaz #VinoBCS",
+  "caption": "Black Friday 🍷 Hoy, el vino es mexicano\n\nSolo hoy, viernes 27 de noviembre: 10% de descuento en todos los vinos mexicanos de la boutique.\n\nValle de Guadalupe, Querétaro, Guanajuato y Zacatecas: Bruma, Lechuza, Vinícola Discográfica, Tacuche, Vinaltura, Cuna de Tierra, Tierra Adentro y Maca & Olivia. Pásate a elegir el tuyo o escríbenos y te lo apartamos.\n\nPromoción válida hoy hasta las 20:00 en la boutique, hasta agotar existencias. No acumulable con otras promociones.\n\n📍 Héroes de Independencia esq. Independencia, Centro, La Paz\n🕙 Hoy, de 10:00 a 20:00\n💬 WhatsApp 624 159 9437\n\n#BlackFriday #VinoMexicano #V612WineBoutique #ValleDeGuadalupe #VinoDeMéxico #LaPazBCS #VinoEnLaPaz #VinoBCS",
   "nota": "Cuna de Tierra Nebbiolo ya está en precio de remate: decidir si el 10% aplica sobre el remate (el caption dice «no acumulable»)."
 }

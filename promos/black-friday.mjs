@@ -11,7 +11,7 @@ const DIR = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(DIR, 'disenos');
 
 const FECHA = 'Viernes 27 de noviembre';
-const REGIONES = 'Valle de Guadalupe · Santo Tomás<br>Querétaro · Guanajuato · Zacatecas';
+const REGIONES = 'Valle de Guadalupe · Querétaro<br>Guanajuato · Zacatecas';
 
 const descuento = (num, txt) => `
   <div style="display:flex;align-items:baseline;gap:34px">
